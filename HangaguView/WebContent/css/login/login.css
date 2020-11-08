@@ -1,0 +1,151 @@
+#container {
+    position: relative;
+    width: 100%;
+    margin: 25px auto 100px;
+}
+
+#container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.path {
+    display: none;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+.path li {
+    float: left;
+    padding: 0 0 0 12px;
+    margin: 0 0 0 8px;
+    color: #666;
+}
+
+.login_box {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.xans-member-login .login {
+    position: relative;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 420px;
+    height: 100%;
+}
+
+.xans-member-login .login fieldset {
+    position: relative;
+    width: 340px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.xans-member-login .login fieldset .id,
+.xans-member-login .login fieldset .password {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    margin: 4px 0;
+    border: 1px solid #bbb;
+    border-radius: 0px;
+}
+
+.xans-member-login .login fieldset input {
+    height: 28px;
+    line-height: 28px;
+    width: 94%;
+    padding: 6px 10px;
+    border: 0 none;
+    color: #000;
+    font-weight: bold;
+}
+
+.inputTypeText {
+    height: 19px;
+    padding: 3px 0 0 9px;
+    border: 1px solid #d5d5d5;
+}
+
+
+.xans-member-login .login fieldset .security {
+    padding: 0;
+    margin: 10px 0;
+    color: #757575;
+    vertical-align: middle;
+}
+
+.xans-member-login .login fieldset .security img {
+    vertical-align: middle;
+}
+
+.Login {
+    font-size: 13px;
+    margin: 2px;
+}
+
+.btnArea .black {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.xans-member-login .login fieldset .find {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.xans-member-login .login fieldset .snsArea {
+    padding: 0;
+    margin: 0x;
+}
+
+.xans-member-login .login fieldset .snsArea li {
+    margin: 0;
+    padding: 0;
+}
+
+.login_box li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    padding: 0 5px;
+}
+
+.xans-member-login .login fieldset .snsArea li img {
+    width: 340px;
+    height: 40.21px;
+    margin: 2px 0;
+}
+
+.xans-member-login .login fieldset .link {
+    position: relative;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.btnArea .gray {
+    border: 1px solid #ddd;
+    background: #eee;
+    color: #222;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}

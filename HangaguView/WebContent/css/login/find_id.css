@@ -1,0 +1,26 @@
+.xans-member-findid {
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 20px 0;
+}
+
+.xans-member-findid .findId {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.xans-member-findid .findId p {
+    margin: 7px 0;
+}
+
+.xans-member-findid .findId strong {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    font-weight: normal;
+}
+
+.xans-member-findid .findId .member select {
+    width: 177px;
+}

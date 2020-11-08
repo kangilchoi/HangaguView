@@ -1,0 +1,90 @@
+.xans-member-joincomplete {
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.xans-member-joincomplete .joinComplete .desc {
+    margin: 0 0 10px;
+    font-size: 34px;
+    color: #000;
+    font-style: italic;
+}
+
+.xans-member-joincomplete .joinComplete .information {
+    width: 430px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 20px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.xans-member-joincomplete .joinComplete .information .description li {
+    padding: 10px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.xans-member-joincomplete .joinComplete .information .description li .ci {
+    padding-left: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.xans-member-joincomplete .joinComplete .memberSpecial {
+    margin: 20px 0;
+    color: #000;
+}
+
+.xans-member-joincomplete .joinComplete .memberSpecial p:first-child {
+    margin: 0;
+}
+
+.xans-member-joincomplete .joinComplete .memberSpecial p {
+    margin: 5px 0 0;
+}
+
+.ec-base-button {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.ec-base-button:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.b_center {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.L {
+    width: 140px;
+    font-size: 13px;
+    margin: 2px;
+}
+
+.btnArea .black {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.btnArea .gray {
+    border: 1px solid #ddd;
+    background: #eee;
+    color: #222;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
