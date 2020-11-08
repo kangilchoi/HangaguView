@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Login Page</title>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/login/login.css">
 </head>
 <body>
-	<div>
-		Login Page
-	</div>
+<div id="wrap">
+    <div id="container">
+        <div id="contents">
+
+            <div class="path">
+                <span>현재 위치</span>
+                <ol>
+                    <li><a href="/">홈</a></li>
+                    <li title="현재 위치"><strong>로그인</strong></li>
+                </ol>
+            </div>
+
+            <div class="titleArea">
+                <h2>LOGIN</h2>
+            </div>
+
+            <div class="login_box">
+                <ul>
+                    <li>
+                        <form name="" enctype="multipart/form-data">
+                            <div class="xans-element- xans-member xans-member-login ">
+                                <div class="login">
+                                    <fieldset>
+                                        <legend>회원로그인</legend>
+                                        <label class="id ePlaceholder" title="아이디">
+                                            <input id="member_id" name="member_id" class="inputTypeText"
+                                                   placeholder="아이디" value="" type="text">
+                                        </label>
+                                        <label class="password ePlaceholder" title="비밀번호">
+                                            <input id="member_passwd" name="member_passwd" autocomplete="off" value=""
+                                                   type="password" placeholder="비밀번호">
+                                        </label>
+                                        <div class="btnArea Login center">
+                                            <a href="#" class="black">로그인</a>
+                                        </div>
+                                        <div class="find">
+                                            <a href="#">- 아이디찾기</a>
+                                            <a href="#">- 비밀번호찾기</a>
+                                        </div>
+
+                                        <div class="snsArea">
+                                            <ul>
+                                                <li class="">
+                                                    <a href="#">
+                                                        <img src="../../img/login_btn_naver.png" alt="네이버 로그인"></a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="#">
+                                                        <img src="../../img/login_btn_kakao.png" alt="카카오계정 로그인"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="link">
+                                            <div class="btnArea Login center">
+                                                <a href="#" class="gray">회원가입</a>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,222 @@
+.xans-myshop-asyncbenefit {
+    margin: 0;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+}
+
+.xans-myshop-asyncbenefit .description {
+    text-align: center;
+    color: #000;
+}
+
+.txtEm {
+    color: #008bcc;
+}
+
+.ec-base-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.xans-member-edit h3 {
+    margin: 20px 0 10px;
+    font-size: 14px;
+    color: #000;
+}
+
+.xans-member-edit .required {
+    margin: -25px 0 10px;
+    color: #353535;
+    text-align: right;
+}
+
+.xans-member-edit .required img {
+    vertical-align: middle;
+}
+
+.xans-member-edit .boardWrite {
+    table-layout: fixed;
+    border-top: 1px solid #d7d5d5;
+    line-height: 180%;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+caption {
+    display: none;
+}
+
+.xans-member-edit .boardWrite tr:first-child th, .xans-member-edit .boardWrite tr:first-child td {
+    border-top: 0;
+}
+
+.xans-member-edit .boardWrite th {
+    width: 130px;
+    padding: 10px 0 8px 20px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+th, td {
+    border: 0;
+    vertical-align: top;
+}
+
+.xans-member-edit .boardWrite img {
+    vertical-align: middle;
+}
+
+.xans-member-edit .boardWrite td {
+    width: auto;
+    padding: 10px 0 8px 10px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: middle;
+}
+
+.xans-member-edit .boardWrite input {
+    height: 14px;
+}
+
+.xans-member-edit input, .xans-member-edit textarea {
+    padding: 4px;
+    border: 1px solid #d9d9d9;
+    color: #000;
+    font-size: 12px;
+}
+
+.inputTypeText {
+    height: 19px;
+    padding: 3px 0 0 9px;
+    border: 1px solid #d5d5d5;
+}
+
+.xans-member-edit .boardWrite select {
+    height: 24px;
+}
+
+.xans-member-edit select {
+    height: 24px;
+    margin: 0 4px 0 0;
+}
+
+.xans-member-edit #hint_answer {
+    width: 500px;
+}
+
+.xans-member-edit #postcode1, .xans-member-edit #postcode2 {
+    width: 40px;
+    text-align: center;
+}
+
+.xans-member-edit .boardWrite a {
+    text-decoration: none;
+}
+
+.xans-member-edit #addr1, .xans-member-edit #addr2 {
+    width: 280px;
+    margin: 5px 0 0;
+}
+
+.xans-member-edit #phone1, .xans-member-edit #mobile1 {
+    width: 60px;
+    margin: 0 4px 0 0;
+}
+
+
+.xans-member-edit #phone2, .xans-member-edit #phone3, .xans-member-edit #mobile2, .xans-member-edit #mobile3 {
+    width: 50px;
+    margin: 0 4px;
+}
+
+
+.xans-member-edit #email1 {
+    margin-right: 4px;
+}
+
+.xans-member-edit input[type=radio], .xans-member-edit input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    margin: 0 3px 0 0;
+    padding: 0;
+    border: 0;
+}
+
+.xans-member-edit .boardWrite label {
+    padding: 0 20px 0 0;
+}
+
+.xans-member-edit #birth_year, .xans-member-edit #marry_year, .xans-member-edit #partner_year {
+    width: 60px;
+    margin: 0 4px 0 0;
+}
+
+.xans-member-edit #birth_month, .xans-member-edit #marry_month, .xans-member-edit #partner_month, .xans-member-edit #birth_day, .xans-member-edit #marry_day, .xans-member-edit #partner_day {
+    width: 30px;
+    margin: 0 4px 0 0;
+}
+
+.xans-member-edit #job, .xans-member-edit #job_class, .xans-member-edit #school, .xans-member-edit #region, .xans-member-edit #internet, .xans-member-edit #child, .xans-member-edit #car, .xans-member-edit #earning {
+    width: 200px;
+}
+
+.ec-base-button {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.ec-base-button:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.b_center {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.L {
+    width: 140px;
+    font-size: 13px;
+    margin: 2px;
+}
+
+.btnArea .black {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.btnArea .gray {
+    border: 1px solid #ddd;
+    background: #eee;
+    color: #222;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.btnArea .white {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #222;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}

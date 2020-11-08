@@ -1,0 +1,233 @@
+.xans-member-join .boardWrite {
+    table-layout: fixed;
+    line-height: 180%;
+    border-top: 1px solid #e8e8e8;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+caption {
+    display: none;
+}
+
+
+
+.xans-member-join .boardWrite.type th, .xans-member-join .boardWrite.type td {
+    padding: 18px 0 18px 20px;
+}
+
+.xans-member-join .boardWrite th {
+    width: 130px;
+    padding: 10px 0 8px 20px;
+    border-top: 0px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 0px solid #e8e8e8;
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+th, td {
+    border: 0;
+    vertical-align: top;
+}
+
+.xans-member-join .boardWrite img {
+    vertical-align: middle;
+}
+
+.xans-member-join .boardWrite td {
+    width: auto;
+    padding: 10px 0 8px 10px;
+    border-top: 0px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.xans-member-join .boardWrite input {
+    height: 14px;
+}
+
+.xans-member-join input[type=radio], .xans-member-join input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    margin: 0 3px 0 0;
+    padding: 0;
+    border: 0;
+}
+
+.xans-member-join input, .xans-member-join textarea {
+    padding: 4px;
+    border: 1px solid #d9d9d9;
+    color: #202020;
+    font-size: 12px;
+}
+
+.xans-member-join .boardWrite label {
+    padding: 0 20px 0 0;
+}
+
+
+.xans-member-join .boardWrite tr:last-child th, .xans-member-join .boardWrite tr:last-child td {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.xans-member-join h3 {
+    padding: 40px 0 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+.xans-member-join .required {
+    margin: -25px 0 10px;
+    color: #353535;
+    text-align: right;
+}
+
+.xans-member-join .required img {
+    vertical-align: middle;
+}
+
+.inputTypeText {
+    height: 19px;
+    padding: 3px 0 0 9px;
+    border: 1px solid #d5d5d5;
+}
+
+.xans-member-join .boardWrite select {
+    height: 24px;
+}
+
+.xans-member-join select {
+    height: 24px;
+    margin: 0 4px 0 0;
+}
+
+.xans-member-join #hint_answer {
+    width: 500px;
+}
+
+.xans-member-join #postcode1, .xans-member-join #postcode2 {
+    width: 50px;
+    text-align: center;
+}
+.xans-member-join .boardWrite a {
+    text-decoration: none;
+}
+
+.xans-member-join #addr1, .xans-member-join #addr2 {
+    width: 280px;
+    margin: 5px 0 0;
+}
+
+.xans-member-join #phone1, .xans-member-join #mobile1 {
+    width: 60px;
+    margin: 0 4px 0 0;
+}
+
+.xans-member-join #phone2, .xans-member-join #phone3, .xans-member-join #mobile2, .xans-member-join #mobile3 {
+    width: 50px;
+    margin: 0 4px;
+}
+
+.xans-member-join #email1 {
+    margin-right: 4px;
+}
+
+.xans-member-join .boardWrite.typeAddinfo th, .xans-member-join .boardWrite.typeAddinfo td {
+    border-top: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.xans-member-join #birth_year, .xans-member-join #marry_year, .xans-member-join #partner_year {
+    width: 60px;
+    margin: 0 4px 0 0;
+}
+
+.xans-member-join #job, .xans-member-join #job_class, .xans-member-join #school, .xans-member-join #region, .xans-member-join #internet, .xans-member-join #child, .xans-member-join #car, .xans-member-join #earning {
+    width: 200px;
+}
+
+.xans-member-join .agreeArea {
+    color: #747474;
+    line-height: 20px;
+}
+
+.xans-member-join .agreeArea .content {
+    overflow: auto;
+    height: 110px;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    color: #999;
+}
+
+
+.xans-member-join .agreeArea .content p {
+    padding: 0 0 10px;
+}
+
+.xans-member-join .agreeArea .check {
+    padding: 15px 0;
+    color: #202020;
+    font-size: 12px;
+}
+
+.xans-member-join input[type=radio], .xans-member-join input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    margin: 0 3px 0 0;
+    padding: 0;
+    border: 0;
+}
+
+.ec-base-button {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.ec-base-button:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.b_center {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.L {
+    width: 140px;
+    font-size: 13px;
+    margin: 2px;
+}
+
+.btnArea .black {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.btnArea .gray {
+    border: 1px solid #ddd;
+    background: #eee;
+    color: #222;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
