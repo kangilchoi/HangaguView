@@ -1,0 +1,79 @@
+@charset "EUC-KR";
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+code, form, fieldset, legend, input, textarea, p, blockquote, th, td, img {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 0.75em;
+	font-family: 'Noto Sans', 'Nanum Gothic', Arial, sans-serif;
+	line-height: 1.8;
+	color: #888;
+}
+
+img, fieldset {
+    border: none;
+    vertical-align: top;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th, td {
+    border: 0;
+    vertical-align: top;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input, select, textarea {
+    font-size: 100%;
+    color: #000;
+    vertical-align: middle;
+}
+
+img, fieldset {
+    border: none;
+    vertical-align: top;
+}
+
+legend {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+}

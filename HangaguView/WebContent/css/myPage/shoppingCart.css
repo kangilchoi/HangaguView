@@ -1,0 +1,246 @@
+#wrap{
+    position: relative;
+    width: 100%;s
+    margin: 0px auto 0;
+}
+
+#container{
+	position: relative;
+    width: 100%;
+    margin: 25px auto 100px;
+    zoom: 1;
+}
+
+#contents {
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.titleArea {
+    padding: 20px 0 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.titleArea h2 {
+    font-size: 16px;
+    color: #000;
+}
+
+.path {
+    display: none;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    zoom: 1;
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+.path span {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    white-space: nowrap;
+    text-indent: 100%;
+}
+
+.xans-order-basketpackage .xans-order-tabinfo {
+    margin: 0;
+}
+.ec-base-tab {
+    position: relative;
+}
+
+.ec-base-tab .menu {
+    margin: 0 0 30px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #000;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.ec-base-tab .menu li {
+    float: left;
+    background: #fff;
+    font-size: 12px;
+}
+
+.ec-base-tab.typeLight .menu li.selected a {
+    position: relative;
+    top: -1px;
+    border: 1px solid #000;
+    border-bottom: 1px solid #fff;
+    color: #000;
+    background: #fff;
+}
+.ec-base-tab .menu li.selected a {
+    position: relative;
+    top: -1px;
+    border: 1px solid #000;
+    border-bottom: 1px solid #fff;
+    color: #000;
+    background: #fff;
+}
+.ec-base-tab .menu li a {
+    display: block;
+    min-width: 187px;
+    margin: 0 0 -2px;
+    padding: 10px 0;
+    color: #999;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+}
+
+.ec-base-tab .menu:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ec-base-tab .right {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    line-height: 24px;
+    color: #909090;
+}
+
+.xans-order-basketpackage .xans-order-empty p {
+    margin: 20px 0;
+    padding: 50px 0;
+    text-align: center;
+    color: #757575;
+    background: #f9f9f9;
+}
+
+.xans-order-basketpackage .xans-order-totalorder {
+    margin: 10px 0 40px;
+}
+.ec-base-button {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.b_center {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.L {
+    width: 140px;
+    font-size: 13px;
+    margin: 2px;
+}
+
+.btnArea .black {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.btnArea .gray {
+    border: 1px solid #ddd;
+    background: #eee;
+    color: #222;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.btnArea .white {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #222;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.ec-base-button:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+div.ec-base-help {
+    margin: 20px 0;
+    border: 1px solid #e8e8e8;
+    line-height: 18px;
+}
+
+div.ec-base-help > h2, div.ec-base-help > h3 {
+    padding: 9px 0 6px 10px;
+    border-bottom: 1px solid #e8e7e7;
+    color: #101010;
+    font-size: 12px;
+    background: #fbfbfb;
+}
+
+div.ec-base-help .inner {
+    padding: 0 9px 12px;
+}
+
+div.ec-base-help h4:first-child {
+    margin-top: 13px;
+}
+div.ec-base-help h4 {
+    margin: 22px 0 -4px;
+    color: #404040;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+div.ec-base-help ul, div.ec-base-help ol {
+    margin: 15px 0 0 11px;
+}
+
+div.ec-base-help ol li {
+    padding: 0 0 0 25px;
+    background: url(http://img.echosting.cafe24.com/skin/base/common/ico_number.png) no-repeat;
+}
+div.ec-base-help li {
+    color: #707070;
+}
+
+div.ec-base-help ol .item1 {
+    background-position: -484px 0;
+}
+
+div.ec-base-help ol .item2 {
+    background-position: -434px -100px;
+}
+
+div.ec-base-help ol .item3 {
+    background-position: -384px -200px;
+}
+
+div.ec-base-help ol .item4 {
+    background-position: -334px -300px;
+}
+
+div.ec-base-help ol .item5 {
+    background-position: -284px -400px;
+}
+
+div.ec-base-help ol .item6 {
+    background-position: -234px -500px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}

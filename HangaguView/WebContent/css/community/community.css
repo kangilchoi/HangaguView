@@ -1,0 +1,255 @@
+.align_left{
+	text-align: left;
+}
+
+#wrap{
+    position: relative;
+    width: 100%;s
+    margin: 0px auto 0;
+}
+
+#container{
+	position: relative;
+    width: 100%;
+    margin: 25px auto 100px;
+    zoom: 1;
+}
+
+#contents {
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.titleArea {
+    padding: 20px 0 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.titleArea h2 {
+    font-size: 16px;
+    color: #000;
+}
+
+.xans-board-listpackage .boardSort {
+    float: left;
+    margin: 0 0 10px;
+}
+
+select {
+    height: 24px;
+    border: 1px solid #d5d5d5;
+}
+input, select, textarea {
+    font-size: 100%;
+    color: #000;
+    vertical-align: middle;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.xans-board-listpackage .boardList {
+    clear: both;
+}
+
+.xans-board-listpackage .boardList table {
+    border-top: 1px solid #d7d5d5;
+    border-bottom: 1px solid #d7d5d5;
+    color: #353535;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+.xans-board-listpackage table th {
+    padding: 12px 0 12px;
+    font-weight: normal;
+}
+
+.xans-board-listpackage table .thumb {
+    overflow: hidden;
+    text-align: left;
+}
+
+.xans-board-listpackage table tbody.notice, .xans-board-listpackage table tbody.fixed tr {
+    background: #fafafa;
+}
+
+.xans-board-listpackage table td {
+    padding: 6px 3px 6px;
+    height: 32px;
+    border-top: 1px solid #e3e3e3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.xans-board-listpackage table tbody.notice .subject, .xans-board-listpackage table tbody.fixed .subject {
+    font-weight: bold;
+}
+.xans-board-listpackage table .subject {
+    word-break: break-all;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.xans-board-listpackage table tbody.notice tr td a {
+    color: #ff0000!important;
+}
+
+.xans-board-listpackage table .subject img {
+    vertical-align: middle;
+    margin: 0 1px;
+}
+
+.xans-board-listpackage table .comment {
+    color: #008bcc;
+    font-weight: normal;
+}
+
+.xans-board-listpackage table .txtLess {
+    color: #939393;
+    font-size: 11px;
+}
+
+.b_center {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.L {
+    width: 140px;
+    font-size: 13px;
+    margin: 2px;
+}
+
+.btnArea .black_s {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 4px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.ec-base-paginate {
+    margin: 0px 0;
+    text-align: center;
+    font-size: 0;
+    line-height: 0;
+}
+
+.ec-base-paginate img {
+    vertical-align: top;
+}
+
+.ec-base-paginate ol {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    *margin: 0;
+}
+
+.ec-base-paginate li:first-child {
+    margin-left: 0;
+}
+.ec-base-paginate li {
+    display: inline-block;
+    margin: 0 0 0 -1px;
+    border: 1px solid #ddd;
+    font-size: 11px;
+    color: #666;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+}
+
+.ec-base-paginate li a.this {
+    padding-bottom: 6px;
+    border-bottom: 3px solid #000;
+    color: #000;
+}
+.ec-base-paginate li a {
+    display: block;
+    width: 33px;
+    padding: 9px 0;
+    font-weight: bold;
+    color: #000;
+    line-height: 14px;
+    background: #fff;
+}
+
+.xans-board-search {
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.xans-board-search .boardSearch {
+    display: block;
+}
+
+.xans-board-search p {
+    margin: 0;
+    padding: 0;
+}
+
+.xans-board-search p:before {
+    content: "Search";
+}
+
+.xans-board-search select#search_date {
+    margin: 0 2px 0 22px;
+}
+.xans-board-search select {
+    margin: 0 2px 0 0;
+    width: 72px;
+}
+
+.button_g {
+    position: relative;
+    margin: 20px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.community_table th {
+    width: 110px;
+    padding: 10px 0 8px 20px;
+    border-top: 1px solid #e8e8e8;
+    border-right: 0px solid #e8e8e8;
+    text-align: left;
+    font-weight: normal;
+    color : #353535;
+}
+
+.community_table td {
+    width: auto;
+    padding: 10px 0 8px 10px;
+    border-top: 1px solid #e8e8e8;
+    color : #353535;
+}
+
+.community_table .detail {
+	padding: 40px 20px;
+}
+
+.hr_gray {
+	border : 1px solid #e8e8e8;
+}
+
