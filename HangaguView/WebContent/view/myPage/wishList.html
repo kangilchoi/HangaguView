@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping Cart</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- CSS -->
+<link href="/css/common.css" rel="stylesheet">
+<link href="/css/myPage/wishList.css" rel="stylesheet">
+
+<script type="text/javascript">
+	function searchProductPopup(){
+	    var url="/view/product/searchProduct.html";
+	    window.open(url,"","width=600,height=400,left=600");
+	}
+</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="container">
+			<div id="contents">
+				<!-- title -->
+				<div class="titleArea">
+					<h2>WISH LIST</h2>
+				</div>
+
+				<!-- 관심상품 없을경우 -->
+				<div class="xans-element- xans-order xans-order-basketpackage ">
+					<div class="xans-element- xans-order xans-order-empty ">
+						<p>장바구니가 비어 있습니다.</p>
+					</div>
+
+				</div>
+				<!-- 관심상품 있을경우 -->
+				<div class="xans-element- xans-myshop xans-myshop-wishlist xans-record-">
+					<table border="1" summary="" class="">
+						<colgroup>
+							<col style="width: 27px;">
+							<col style="width: 120px;">
+							<col style="width: 200px;">
+							<col style="width: auto;">
+							<col style="width: auto;">
+							<col style="width: auto;">
+							<col style="width: auto;">
+							<col style="width: auto;">
+							<col style="width: 110px;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col"><input type="checkbox" onclick="NewWishlist.checkAll(this);"></th>
+								<th scope="col">이미지</th>
+								<th scope="col">상품정보</th>
+								<th scope="col">판매가</th>
+								<th scope="col">적립금</th>
+								<th scope="col">배송구분</th>
+								<th scope="col">배송비</th>
+								<th scope="col">합계</th>
+								<th scope="col">선택</th>
+							</tr>
+						</thead>
+						<tbody class="xans-element- xans-myshop xans-myshop-wishlistitem">
+							<tr class="xans-record-">
+								<!-- col 1 -->
+								<td>
+									<input name="wish_idx[]" id="wish_idx_0" class="" value="699" type="checkbox">
+								</td>
+								<!-- col 2 : 이미지-->
+								<td class="thumb">
+									<a href="/product/detail.html?product_no=5069&amp;cate_no=1&amp;display_group=">
+										<img src="//furnimass.com/web/product/medium/202007/b8d4f94d3d9fa1afb8fa47147d768183.jpg" alt="">
+									</a>
+								</td>
+								<!-- col 3 : 상품정보-->
+								<td class="product">
+									<a href="/product/detail.html?product_no=4436&amp;cate_no=1">
+			                        	<strong>베이직 레더 바 체어 B-366</strong>
+			                        </a>
+			                        <ul class="xans-element- xans-order xans-order-optionall option">
+			                        	<li class="xans-record-">
+											[옵션: 오렌지]
+											<br>
+											<select name="option1" id="product_option_id1" class="ProductOption0">
+												<option value="*" selected="">
+													- [필수] 옵션을 선택해 주세요 -
+												</option>
+												<option value="**">
+													-------------------
+												</option>
+												<option value="오렌지">오렌지</option>
+												<option value="모카" link_image="">모카</option>
+											</select>
+			                            </li>
+									</ul>
+								</td>
+								<!-- col 4 : 가격-->
+								<td class="price">
+									<strong class="">32,000원</strong>
+								</td>
+								<!-- col 5 : 마일리지-->
+								<td class="mileage">-</td>
+								<!-- col 6 : 배송 타입-->
+								<td class="delivery">기본배송
+								</td>
+								<!-- col 7 : 배송비-->
+								<td>0원</td>
+								<!-- col 8 : 합계-->
+								<td class="total">-</td>
+								
+								<!-- col 9 : 버튼 -->
+								<td class="button">
+									<!-- 주문 버튼 -->
+									<a href="#none" class="">
+										<img src="http://img.echosting.cafe24.com/skin/base_ko_KR/order/btn_order.gif" alt="주문하기">
+									</a>
+									<!-- 장바구니 버튼 -->
+									<a href="#none" class="">
+										<img src="http://img.echosting.cafe24.com/skin/base_ko_KR/order/btn_basket.gif" alt="장바구니담기">
+									</a>
+									<!-- 삭제 버튼 -->
+									<a href="#none" class="">
+										<img src="http://img.echosting.cafe24.com/skin/base_ko_KR/order/btn_delete.gif" alt="삭제">
+									</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<!-- 일괄 처리 버튼들 -->
+					<div class="xans-element- xans-myshop xans-myshop-wishlistbutton ec-base-button xans-record-">
+						<div class="btnArea M b_left">
+						        <a href="" class="black_s">장바구니 담기</a>
+					    </div>
+						<div class="btnArea L b_right">
+					    	<a href="" class="gray">상품 삭제</a>
+					    </div>
+						<div class="btnArea L b_right">
+					    	<a href="" onclick="searchProductPopup()" class="black">상품 주문</a>
+					    </div>
+					</div>
+
+					<!-- paging -->
+		            <div class="xans-element- xans-board xans-board-paging-4 xans-board-paging xans-board-4 ec-base-paginate">
+		            <a href="?board_no=6&amp;page=1">
+		            	<img src="https://img.echosting.cafe24.com/skin/base/common/btn_page_prev.gif" alt="이전 페이지"></a>
+		                <ol>
+		                	<li class="xans-record-"><a href="?board_no=6&amp;page=1" class="this">1</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=2" class="other">2</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=3" class="other">3</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=4" class="other">4</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=5" class="other">5</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=6" class="other">6</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=7" class="other">7</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=8" class="other">8</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=9" class="other">9</a></li>
+		                    <li class="xans-record-"><a href="?board_no=6&amp;page=10" class="other">10</a></li>
+		                </ol>
+		                <a href="?board_no=6&amp;page=2"><img src="https://img.echosting.cafe24.com/skin/base/common/btn_page_next.gif" alt="다음 페이지"></a>
+		            </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

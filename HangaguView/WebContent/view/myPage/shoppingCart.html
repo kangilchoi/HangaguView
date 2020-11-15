@@ -32,28 +32,147 @@
                 <div class="xans-element- xans-order xans-order-empty "><p>장바구니가 비어 있습니다.</p>
                 </div>
                 
-                <!-- 일반상품 -->
+                <!-- 장바구니 상품 있을경우 -->
                 <div class="orderListArea">
-                </div>
+		        	<div class="xans-element- xans-order xans-order-normtitle title "><h3>일반상품 (1)</h3>
+					</div>
+		
+			        <!-- 일반상품 (기본배송) -->
+			        <table border="1" summary="" class="xans-element- xans-order xans-order-normnormal boardList xans-record-">
+						<colgroup>
+							<col style="width:27px;">
+							<col style="width:92px;">
+							<col style="width:200px;">
+							<col style="width:auto;">
+							<col style="width:auto;">
+							<col style="width:auto;">
+							<col style="width:auto;">
+							<col style="width:auto;">
+							<col style="width:auto;">
+							<col style="width:110px;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col"><input type="checkbox" onclick="Basket.setCheckBasketList('basket_product_normal_type_normal', this);"></th>
+			                    <th scope="col">이미지</th>
+			                    <th scope="col">상품정보</th>
+			                    <th scope="col">판매가</th>
+			                    <th scope="col">수량</th>
+			                    <th scope="col">적립금</th>
+			                    <th scope="col">배송구분</th>
+			                    <th scope="col">배송비</th>
+			                    <th scope="col">합계</th>
+			                    <th scope="col">선택</th>
+			                </tr>
+		                </thead>
+						<tfoot>
+							<tr>
+								<td colspan="10">
+									<strong class="type">[기본배송]</strong>
+										상품구매금액 <strong>198,000
+									</strong>
+									<span class="displaynone">
+									</span> + 배송비 (착불)
+									<span class=""> - 상품할인금액 59,400 </span> = 합계 : <strong class="total"><span>138,600</span>원</strong> <span class="displaynone"> </span>
+								</td>
+			                </tr>
+			            </tfoot>
+			            <!-- 상품 목록 -->
+			            <tbody class="xans-element- xans-order xans-order-list">
+			            	<tr class="xans-record-">
+			            		<!-- col 1 -->l
+								<td>
+									<input type="checkbox" id="basket_chk_id_0" name="basket_product_normal_type_normal">
+								</td>
+			                    <!-- col 2 -->
+			                    <td class="thumb"><a href="/product/detail.html?product_no=4436&amp;cate_no=1">
+			                    	<img src="//furnimass.com/web/product/tiny/202010/35726e0357f659053e05f5f223a103ad.jpg" onerror="this.src='https://img.echosting.cafe24.com/thumb/img_product_small.gif';" alt="베이직 레더 바 체어 B-366"></a>
+			                    </td>
+			                    <!-- col 3 -->
+			                    <td class="product">
+			                        <a href="/product/detail.html?product_no=4436&amp;cate_no=1">
+			                        	<strong>베이직 레더 바 체어 B-366</strong>
+			                        </a>
+			                        <ul class="xans-element- xans-order xans-order-optionall option">
+			                        	<li class="xans-record-">
+											[옵션: 오렌지]
+											<br>
+											<select name="option1" id="product_option_id1" class="ProductOption0">
+												<option value="*" selected="">
+													- [필수] 옵션을 선택해 주세요 -
+												</option>
+												<option value="**">
+													-------------------
+												</option>
+												<option value="오렌지">오렌지</option>
+												<option value="모카" link_image="">모카</option>
+											</select>
+			                            </li>
+									</ul>
+								</td>
+								<!-- col 4 -->
+			                    <td class="price">
+			                        <div class="discount">
+										<strong>198,000원</strong>
+									</div>
+			                        <div class="">
+										<strong>138,600원</strong>
+									</div>
+			                    </td>
+			                    <!-- col 5 -->
+			                    <td>
+			                        <span class="ec-base-qty">
+			                        	<input id="quantity_id_0" name="quantity_name_0" size="2" value="1" type="text">
+		                        		<a href="javascript:;" onclick="Basket.addQuantityShortcut('quantity_id_0', 0);">
+		                        			<img src="https://img.echosting.cafe24.com/skin/base/common/btn_quantity_up.gif" alt="수량증가" class="up">
+		                        		</a>
+		                        		<a href="javascript:;" onclick="Basket.outQuantityShortcut('quantity_id_0', 0);">
+		                        			<img src="https://img.echosting.cafe24.com/skin/base/common/btn_quantity_down.gif" alt="수량감소" class="down">
+		                        		</a>
+			                        </span>
+			                    </td>
+			                    <!-- col 6 -->
+			                    <td class="mileage">
+			                    	<input id="product_mileage_all_4436_000F" name="product_mileage_all" value="1386" type="hidden">
+		                    		<img src="//img.echosting.cafe24.com/design/common/icon_cash.gif"> 1,386원
+			                    </td>
+			                    <!-- col 7 -->
+			                    <td class="delivery">기본배송
+			                    	<div class="displaynone">(해외배송가능)</div>
+								</td>
+								<!-- col 8 -->
+			                    <td>
+									<p>0원</p>
+								</td>
+								<!-- col 9 -->
+		                    	<td class="total">
+									<strong>138,600원</strong>
+								</td>
+								<!-- col 10 -->		
+			                    <td class="button">
+			                        <a href="" onclick="Basket.orderBasketItem(0);"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/order/btn_order.gif" alt="주문하기"></a>
+			                        <a href="" onclick="BasketNew.moveWish(0);"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/order/btn_wish.gif" alt="관심상품등록"></a>
+			                        <a href="" onclick="Basket.deleteBasketItem(0);"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/order/btn_delete.gif" alt="삭제"></a>
+			                    </td>
+			                </tr>
+						</tbody>
+					</table>
+	        	</div>
                 
-                <!-- 버튼 3개 -->
-                <div class="xans-element- xans-order xans-order-totalorder ec-base-button">
-                    <div class="btnArea L b_center ">
-                        <a href="#none" onclick="Basket.orderAll(this)" class="black "
-                           link-order="/order/orderform.html?basket_type=all_buy"
-                           link-login="/member/login.html">전체상품주문</a>
-                    </div>
-                    <div class="btnArea L b_center ">
-                        <a href="#none" class="gray" onclick="Basket.orderSelectBasket(this)"
-                           link-order="/order/orderform.html?basket_type=all_buy"
-                           link-login="/member/login.html">선택상품주문</a>
-                    </div>
-                    <div class="btnArea L b_center">
-                        <a href="/" class="white">쇼핑계속하기</a>
-                    </div>
-                </div>
-            </div>
-            <!-- end 장바구니 모듈 -->
+	            <!-- 버튼 3개 -->
+	            <div class="xans-element- xans-order xans-order-totalorder ec-base-button">
+	                <div class="btnArea L b_center ">
+	                    <a href="#none" onclick="" class="black " link-order="/order/orderform.html?basket_type=all_buy">전체상품주문</a>
+	                </div>
+	                <div class="btnArea L b_center ">
+	                    <a href="#none" class="gray" onclick="">선택상품주문</a>
+	                </div>
+	                <div class="btnArea L b_center">
+	                    <a href="/" class="white">쇼핑계속하기</a>
+	                </div>
+	            </div>
+			</div>
+	        <!-- end 장바구니 모듈 -->
 
             <!-- 이용안내 -->
             <div class="xans-element- xans-order xans-order-basketguide ec-base-help "><h3>이용안내</h3>
