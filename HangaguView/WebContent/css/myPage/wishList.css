@@ -245,56 +245,28 @@ a {
     color: #000;
 }
 
-.xans-order-basketpackage .orderListArea .title {
-    height: 38px;
-    margin: 20px 0 0;
-    padding: 0 0 0 9px;
-    border: 1px solid #d7d5d5;
-    border-bottom: 0;
-    line-height: 38px;
-    background: #f6f6f6;
-}
-
-.xans-order-basketpackage .boardList {
+.xans-myshop-wishlist table {
     table-layout: fixed;
-    margin: 0 0 1px;
     border: 1px solid #d7d5d5;
     color: #353535;
     line-height: 1.5;
 }
 
-.xans-order-basketpackage .boardList th:first-child {
+.xans-myshop-wishlist table th:first-child {
     border-left: 0;
 }
-.xans-order-basketpackage .boardList th {
+.xans-myshop-wishlist table th {
     padding: 11px 0 9px;
-    border-left: 1px solid #e9e9e9;
+    border-left: 0px solid #e9e9e9;
     font-weight: normal;
     background: #fbfafa;
 }
-
-.xans-order-basketpackage .boardList tfoot td {
-    padding: 15px 10px 17px;
-    background: #fbfafa;
-    text-align: right;
+th, td {
+    border: 0;
+    vertical-align: top;
 }
 
-.xans-order-basketpackage .boardList tfoot td .total {
-    margin: 0 0 0 15px;
-    color: #008bcc;
-}
-
-.xans-order-basketpackage .boardList tfoot td .total span {
-    font-size: 17px;
-    letter-spacing: -1px;
-}
-
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-.xans-order-basketpackage .boardList td {
+.xans-myshop-wishlist table td {
     padding: 8px 0 5px;
     border-top: 1px solid #e9e9e9;
     text-align: center;
@@ -302,51 +274,89 @@ tbody {
     word-wrap: break-word;
 }
 
-.xans-order-basketpackage .boardList td.thumb img {
-    width: 80px;
+.xans-myshop-wishlist table td.thumb img {
+    width: 100px;
 }
 
-.xans-order-basketpackage .boardList td .discount {
-    text-decoration: line-through;
-}
-
-.xans-order-basketpackage .boardList td .ec-base-qty {
-    margin-bottom: 4px;
-}
-.ec-base-qty {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    margin: 0 1px 0 0;
+.xans-myshop-wishlist table td.product {
+    padding-left: 10px;
     text-align: left;
 }
 
-.ec-base-qty input[type="text"] {
-    width: 22px;
-    height: 23px;
-    padding: 0 0 0 5px;
-    line-height: 23px;
-    border: 1px solid #d4d8d9;
-    border-radius: 3px 0 0 3px;
+.b_left {
+    float: left;
 }
 
-.ec-base-qty {
-    position: relative;
+.M {
+    width: 100px;
+    margin: 2px;
+}
+
+.btnArea .black_s {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 4px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.b_right {
+    float: right;
+}
+.L {
+    width: 140px;
+    font-size: 13px;
+    margin: 2px;
+}
+
+.ec-base-paginate {
+    margin: 0px 0;
+    text-align: center;
+    font-size: 0;
+    line-height: 0;
+}
+
+.ec-base-paginate img {
+    vertical-align: top;
+}
+
+.ec-base-paginate ol {
     display: inline-block;
-    width: 50px;
-    margin: 0 1px 0 0;
-    text-align: left;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    *margin: 0;
 }
 
-.ec-base-qty .up {
-    position: absolute;
-    left: 27px;
-    top: 0;
+.ec-base-paginate li:first-child {
+    margin-left: 0;
+}
+.ec-base-paginate li {
+    display: inline-block;
+    margin: 0 0 0 -1px;
+    border: 1px solid #ddd;
+    font-size: 11px;
+    color: #666;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
 }
 
-.ec-base-qty .down {
-    position: absolute;
-    left: 27px;
-    bottom: 0;
+.ec-base-paginate li a.this {
+    padding-bottom: 6px;
+    border-bottom: 3px solid #000;
+    color: #000;
 }
-
+.ec-base-paginate li a {
+    display: block;
+    width: 33px;
+    padding: 9px 0;
+    font-weight: bold;
+    color: #000;
+    line-height: 14px;
+    background: #fff;
+}

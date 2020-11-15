@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping Cart</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- CSS -->
+<link href="/css/common.css" rel="stylesheet">
+<link href="/css/product/searchProduct.css" rel="stylesheet">
+</head>
+<body id="popup">
+	<div class="xans-element- xans-search xans-search-frompackage ec-base-layer ">
+		<div class="header">
+     	   <h1>상품검색</h1>
+    	</div>
+		<div class="content">
+        	<form id="searchForm" name="" action="" method="get" target="_self" enctype="multipart/form-data">
+        		<div class="xans-element- xans-search xans-search-boardform ">
+        			<fieldset class="ec-base-box">
+			            <select id="search_type" name="search_type" fw-filter="" fw-label="상품검색" fw-msg="">
+							<option value="product_name" selected="selected">상품명</option>
+							<option value="product_code">상품코드</option>
+							<option value="ma_product_code">자체상품코드</option>
+							<option value="manu_name">제조사</option>
+							<option value="prd_trand">트랜드명</option>
+						</select>                
+						<input id="keyword" name="keyword" fw-filter="isFill" fw-label="검색어" fw-msg="" class="inputTypeText" placeholder="" size="15" value="나무" type="text">                
+						<input type="image" src="http://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_board_search.gif" alt="검색" class="btn">
+	            		&nbsp;
+            		</fieldset>
+					
+					<!-- 총 n개 -->
+					<div class="resultArea">
+                		<p class="total">총 <strong>45</strong>개 의 상품이 검색되었습니다.</p>
+            		</div>
+				</div>
+			</form>
+			
+			<!-- 결과 폼 -->
+			<table border="1" summary="">
+            	<thead>
+            		<tr>
+						<th scope="col" class="image">상품 이미지</th>
+	                    <th scope="col" class="product">상품 정보</th>
+	                    <th scope="col" class="button">선택</th>
+                	</tr>
+                </thead>
+				<tbody>
+					<tr class="xans-element- xans-search xans-search-boardlist xans-record-">
+						<td class="image">
+							<img src="//furnimass.com/web/product/medium/202010/cc36b6037b5023c0b2223f1205d8861d.jpg" alt="">
+						</td>
+						<td class="product">
+                       		 하드 메이플 우드슬랩 [2004004]                    
+                    	</td>
+						<td class="button">
+							<a href="#none" onclick="">
+								<img src="http://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_board_select.gif" alt="선택">
+							</a>
+						</td>
+					</tr>		
+				</tbody>
+			</table>
+			
+			<br>
+			<!-- paging -->
+            <div class="xans-element- xans-board xans-board-paging-4 xans-board-paging xans-board-4 ec-base-paginate">
+            <a href="?board_no=6&amp;page=1">
+            	<img src="https://img.echosting.cafe24.com/skin/base/common/btn_page_prev.gif" alt="이전 페이지"></a>
+                <ol>
+                	<li class="xans-record-"><a href="?board_no=6&amp;page=1" class="this">1</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=2" class="other">2</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=3" class="other">3</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=4" class="other">4</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=5" class="other">5</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=6" class="other">6</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=7" class="other">7</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=8" class="other">8</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=9" class="other">9</a></li>
+                    <li class="xans-record-"><a href="?board_no=6&amp;page=10" class="other">10</a></li>
+                </ol>
+                <a href="?board_no=6&amp;page=2"><img src="https://img.echosting.cafe24.com/skin/base/common/btn_page_next.gif" alt="다음 페이지"></a>
+            </div>
+		</div>
+	</div>
+</body>
+</html>
