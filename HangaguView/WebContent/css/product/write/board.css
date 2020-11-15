@@ -1,0 +1,421 @@
+@charset "UTF-8";
+.ec-base-box {
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+.ec-base-box.typeProduct {
+	display: table;
+	table-layout: fixed;
+	padding: 15px 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+.xans-board-write .ec-base-box.typeProduct {
+	margin: 0 0 20px;
+}
+.ec-base-box.typeProduct .thumbnail, .ec-base-box.typeProduct .information {
+	display: table-cell;
+	padding: 0 20px;
+	vertical-align: middle;
+}
+.ec-base-box.typeProduct .thumbnail {
+	width: 100px;
+}
+.ec-base-box.typeProduct .thumbnail img {
+	max-width: 90px;
+	border: 1px solid #ddd;
+}
+.ec-base-box.typeProduct .information {
+	padding-left: 0;
+}
+.xans-board-write .information h3 {
+	margin: 17px 0 5px;
+	font-size: 14px;
+	color: #2e2e2e;
+}
+.xans-board-write .information .price {
+	font-size: 14px;
+	font-weight: bold;
+	color: #008bcc;
+}
+.xans-board-write .information .button {
+	margin: 19px 0 0 0;
+	padding: 13px 0 0 0;
+	border-top: 1px solid #e8e8e8;
+}
+.xans-board-write .boardWrite table {
+	table-layout: fixed;
+	border-top: 1px solid #d7d5d5;
+	border-bottom: 1px solid #d7d5d5;
+	line-height: 180%;
+}
+.xans-board-write table th {
+	width: 120px;
+	padding: 10px 0 10px 20px;
+	border-top: 1px solid #e8e8e8;
+	border-right: 0px solid #e8e8e8;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+.xans-board-write table td {
+	width: auto;
+	padding: 10px 0 10px 10px;
+	border-top: 1px solid #e8e8e8;
+}
+.inputTypeText {
+	height: 19px;
+	padding: 3px 0 0 9px;
+	border: 1px solid #d5d5d5;
+}
+.xans-board-write table input, .xans-board-write table textarea {
+	padding: 2px 2px 2px 4px;
+	border: 1px solid #d9d9d9;
+	color: #202020;
+}
+.xans-board-write select {
+    height: 21px;
+}
+.xans-board-write table #subject {
+	width: 390px;
+}
+.xans-board-write table input#subject {
+	height: 14px;
+	padding: 3px;
+}
+.xans-board-write table #writer {
+    height: 14px;
+    padding: 3px;
+}
+.xans-board-write table input[type=radio], .xans-board-write table input[type=checkbox], .xans-board-write table #notice0, .xans-board-write table #secure0, .xans-board-write table #secure1, .xans-board-write table #privacy_agreement_radio0, .xans-board-write table #privacy_agreement_radio1 {
+	border: 0;
+	width: 13px;
+	height: 13px;
+	margin: 0 3px 0 0;
+	background: none;
+	vertical-align: middle;
+}
+.xans-board-write table tr.first th, .xans-board-write table tr.first td, .xans-board-write table tr.ucc th, .xans-board-write table tr.ucc td {
+	border-top: 0;
+}
+.xans-board-write table td.write {
+	width: 100%;
+	padding: 0;
+	border-top: none;
+}
+div.nneditor-container {
+	position: relative;
+	line-height: 1.0;
+}
+div.nneditor-container * {
+	margin: 0;
+    padding: 0;
+    font-family: &#46027;
+    &#50880: ;
+    ,Dotum,&#44404: ;
+    &#47548: ;
+    ,Gulim,AppleGothic,Sans-serif: ;
+    font-size: 8pt;
+    font-style: normal;
+}
+table.seLayout {
+	width: 100%;
+    background: #F8F8F8 none repeat scroll 0 0;
+    border-color: -moz-use-text-color #CCC;
+    border-style: none solid;
+    border-width: 0 1px;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.xans-board-write table td.write table {
+	border: 0;
+    table-layout: auto;
+}
+table.seLayout td {
+	border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    height: 1%;
+    line-height: 1.0em;
+}
+div.nneditor-container .nneditor-toolbar-container {
+	border-top: 1px solid #CCC;
+}
+#content_CONTAINER td {
+	width: auto !important;
+}
+.se_toolbar_left2 {
+	float: left;
+}
+div.nneditor-container div.SE_TOOLBAR ul {
+	list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.nneditor-container div.SE_TOOLBAR li {
+	float: left;
+    margin: 2px;
+    padding: 0;
+}
+div.nneditor-container li {
+	list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.nneditor-container div.SE_TOOLBAR .divide {
+	background: transparent url(../images/icons.gif) repeat scroll -180px 0;
+    display: block;
+    height: 20px;
+    margin: 0 1px 0;
+    width: 1px;
+}
+table.nneditor-table {
+	margin: 0;
+	padding: 0;
+    border-spacing: 0;
+    height: 10px;
+    border: 0 none;
+    border-collapse: collapse;
+    display: block;
+}
+table.nneditor-table {
+	width: auto !important;
+}
+table.nneditor-table td {
+	white-space: nowrap;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+div.nneditor-container .img_button {
+	cursor: pointer;
+    background: transparent url(../images/icons.gif) no-repeat scroll 0 0;
+    height: 20px;
+    width: 20px;
+}
+div.nneditor-container .img_button.mode {
+	background-position: -260px 0;
+}
+div.nneditor-container div.SE_TOOLBAR li button, .simpleIcon {
+	border: 0 none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(../images/icons.gif);
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+div.nneditor-container div.SE_TOOLBAR .nneditor-fontsize, div.nneditor-container div.SE_TOOLBAR .nneditor-fonttype {
+	background-image: none;
+    width: 43px;
+    border-color: #B7B7A6 #fff #B7B7A6 #B7B7A6;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    background-color: #fff;
+    text-align: center;
+    font-family: dotum;
+    font-size: 11px;
+    line-height: 18px;
+}
+div.nneditor-container div.SE_TOOLBAR a.fieldButton {
+	background: transparent url(../images/icons.gif) repeat scroll -741px 0;
+    border: 1px solid #B7B7A6;
+    height: 18px;
+    width: 9px;
+    cursor: pointer;
+    line-height: 20px;
+    display: block;
+}
+.xans-board-write table a {
+    text-decoration: none;
+}
+.fieldButton {
+	background: transparent url(../images/icons.gif) repeat scroll -741px 0;
+    border: 1px solid #B7B7A6;
+    height: 18px;
+    margin-right: 2px;
+    line-height: 20px;
+    width: 9px;
+    cursor: pointer;
+}
+div.nneditor-container div.SE_TOOLBAR .undo button {
+	background-position: -160px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .redo button {
+	background-position: -100px 0;
+}
+.simpleIcon.forecolor {
+	height: 16px;
+    background-position: -720px 0;
+}
+.content-forecolor-preview {
+	background: red none repeat scroll 0 0;
+    height: 4px;
+    overflow: hidden;
+    width: 19px;
+}
+a.nneditor-da {
+	background: transparent url(../images/icons.gif) repeat scroll -741px 0;
+    height: 20px;
+    width: 9px;
+    display: block;
+    line-height: 20px;
+}
+.simpleIcon.bgcolor {
+	height: 16px;
+    background-position: -760px 0;
+}
+.content-bgcolor-preview {
+	background: #FFEF00 none repeat scroll 0 0;
+    height: 4px;
+    overflow: hidden;
+    width: 19px;
+}
+div.nneditor-container div.SE_TOOLBAR .bold button {
+	background-position: 0 0;
+}
+div.nneditor-container div.SE_TOOLBAR .underline button {
+	background-position: -140px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .italic button {
+	background-position: -60px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .strikethrough button {
+	background-position: -120px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .superscript button {
+	background-position: -620px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .subscript button {
+	background-position: -600px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .justifyleft button {
+	background-position: -460px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .justifycenter button {
+	background-position: -420px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .justifyright button {
+	background-position: -480px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .justifyfull button {
+	background-position: -440px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .insertorderedlist button {
+	background-position: -80px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .insertunorderedlist button {
+	background-position: -20px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .outdent button {
+    background-position: -540px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .indent button {
+    background-position: -400px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .inserthorizontalrule button {
+    background-position: 0 -20px;
+}
+div.nneditor-container div.SE_TOOLBAR .link button {
+    background-position: -500px 0;
+}
+div.nneditor-container div.SE_TOOLBAR .unlink button {
+    background-position: -640px 0;
+}
+div.nneditor-container div.SE_TOOLBAR li.table {
+    border-bottom: none;
+    border-left: none;
+    clear: none;
+    width: 20px;
+}
+div.nneditor-container div.SE_TOOLBAR .table button {
+	background-position: -580px -20px;
+}
+div.nneditor-container .nneditor-iframe-container {
+	border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+}
+div.nneditor-container .seResize2 {
+	border: medium none;
+    background: #F8F8F8 url(../images/btn_expand.gif) no-repeat scroll center center;
+    cursor: n-resize;
+    display: block;
+    width: 100%;
+    height: 14px;
+    border-right: 0 none;
+    border-left: 0 none;
+    border-bottom: 1px solid #ccc;
+}
+div.nneditor-container .seResize2 span {
+	color: #F0F0EE;
+    font-size: 0;
+}
+.xans-board-write table tr.captcha td {
+	color: #757575;
+    vertical-align: middle;
+}
+span.ec-base-help, p.ec-base-help, ul.ec-base-help li {
+	margin: 2px 9px;
+    padding: 1px 0 1px 20px;
+    line-height: 1.4;
+    background: url(http://img.echosting.cafe24.com/skin/base/common/ico_info.gif) no-repeat 0 2px;
+}
+.txtInfo {
+    color: #707070;
+}
+.xans-board-write table tr.agree th, .xans-board-write table tr.agree td {
+	vertical-align: top;
+}
+.xans-board-write table tr.agree td textarea {
+	width: 560px;
+    height: 140px;
+    margin: 0 0 10px;
+}
+.button_g {
+    position: relative;
+    margin: 20px 0;
+    overflow: hidden;
+    text-align: center;
+}
+.b_left {
+    float: left;
+}
+.b_right {
+    float: right;
+}
+.M {
+    width: 100px;
+    margin: 2px;
+}
+.btnArea .black_s {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 4px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.btnArea .gray_s {
+    border: 1px solid #ddd;
+    background: #eee;
+    color: #222;
+    padding: 4px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
