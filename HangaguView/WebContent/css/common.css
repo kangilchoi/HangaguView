@@ -77,11 +77,9 @@ legend {
     line-height: 0;
 }
 
-
-@media screen and (max-width: 1280px) {
-    #contents {
-        width: 960px;
-    }
+#contents {
+    width: 100%;
+    margin: 0;
 }
 
 .path {

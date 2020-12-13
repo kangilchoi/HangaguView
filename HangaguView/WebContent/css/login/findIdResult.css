@@ -5,10 +5,20 @@
     text-align: center;
 }
 
-.xans-member-findidresult .findId {
-    width: 500px;
-    margin: 0 auto;
+@media screen and (max-width:1280px) {
+    .xans-member-findidresult .findId {
+        width: 500px;
+        margin: 0 auto;
+    }
 }
+
+@media screen and (max-width: 479px) {
+    .xans-member-findidresult .findId {
+        width: 360px;
+        margin: 0 auto;
+    }
+}
+
 
 .xans-member-findidresult .findId .desc {
     margin: 20px 0 20px;
