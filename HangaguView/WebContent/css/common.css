@@ -2,12 +2,27 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form
     margin: 0;
     padding: 0;
 }
-body, code {
+
+@media all and (min-width:480px){
+	body, code {
     font-size: 0.75em;
     font-family: 'Noto Sans','Nanum Gothic',Arial,sans-serif;
     line-height: 1.8;
     color: #888;
     -webkit-text-size-adjust: 100%;
+	}
+}	
+
+@media all and (max-width:479px){
+	body, code {
+    min-width: 320px;
+    font-family: 'Noto Sans','Nanum Gothic',Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #666;
+    background: #fff;
+    -webkit-text-size-adjust: none;
+	}
 }
 
 img, fieldset {
@@ -23,6 +38,7 @@ img, fieldset {
     position: relative;
     width: 100%;
     margin: 0px auto 0;
+    padding: 1%;
 }
 
 #container {
@@ -40,11 +56,21 @@ img, fieldset {
 }
 
 
-#contents {
-    position: relative;
-    width: 1240px;
-    margin: 0 auto;
-    padding: 0 10px;
+@media all and (min-width:480px){
+	#contents {
+	    position: relative;
+/* 	    width: 1240px; */
+	    margin: 0 auto;
+	    padding: 0 10px;
+	}
+}	
+
+@media all and (max-width:479px){
+	#contents {
+	    position: relative;
+	    margin: 50px 0 0;
+	    padding: 0;
+	}
 }
 
 a {
@@ -77,12 +103,17 @@ legend {
     line-height: 0;
 }
 
-
-@media screen and (max-width: 1280px) {
+@media all and (min-width:480px){
     #contents {
         width: 960px;
     }
 }
+
+@media all and (max-width:479px){
+	 #contents {
+        width: 465px;
+    }
+}	
 
 .path {
     display: none;

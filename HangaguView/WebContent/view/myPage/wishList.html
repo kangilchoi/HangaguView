@@ -3,6 +3,7 @@
 <head>
 <title>Shopping Cart</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- CSS -->
 <link href="/css/common.css" rel="stylesheet">
@@ -38,11 +39,11 @@
 							<col style="width: 27px;">
 							<col style="width: 120px;">
 							<col style="width: 200px;">
-							<col style="width: auto;">
-							<col style="width: auto;">
-							<col style="width: auto;">
-							<col style="width: auto;">
-							<col style="width: auto;">
+							<col style="width: auto;" class="swapTh">
+							<col style="width: auto;" class="swapTh">
+							<col style="width: auto;" class="swapTh">
+							<col style="width: auto;" class="swapTh">
+							<col style="width: auto;" class="swapTh">
 							<col style="width: 110px;">
 						</colgroup>
 						<thead>
@@ -50,11 +51,11 @@
 								<th scope="col"><input type="checkbox" onclick="NewWishlist.checkAll(this);"></th>
 								<th scope="col">이미지</th>
 								<th scope="col">상품정보</th>
-								<th scope="col">판매가</th>
-								<th scope="col">적립금</th>
-								<th scope="col">배송구분</th>
-								<th scope="col">배송비</th>
-								<th scope="col">합계</th>
+								<th scope="col" class="swapTh">판매가</th>
+								<th scope="col" class="swapTh">적립금</th>
+								<th scope="col" class="swapTh">배송구분</th>
+								<th scope="col" class="swapTh">배송비</th>
+								<th scope="col" class="swapTh">합계</th>
 								<th scope="col">선택</th>
 							</tr>
 						</thead>
@@ -93,18 +94,18 @@
 									</ul>
 								</td>
 								<!-- col 4 : 가격-->
-								<td class="price">
+								<td class="price swapTd">
 									<strong class="">32,000원</strong>
 								</td>
 								<!-- col 5 : 마일리지-->
-								<td class="mileage">-</td>
+								<td class="mileage swapTd">-</td>
 								<!-- col 6 : 배송 타입-->
-								<td class="delivery">기본배송
+								<td class="delivery swapTd">기본배송
 								</td>
 								<!-- col 7 : 배송비-->
-								<td>0원</td>
+								<td class="swapTd">0원</td>
 								<!-- col 8 : 합계-->
-								<td class="total">-</td>
+								<td class="total swapTd">-</td>
 								
 								<!-- col 9 : 버튼 -->
 								<td class="button">

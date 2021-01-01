@@ -53,3 +53,24 @@
     text-align: center;
     vertical-align: middle;
 }
+
+@media all and (max-width:479px){
+	#history_start_date, #history_end_date{
+		width: 75px;
+	}
+}
+
+@media all and (max-width:479px){
+	.ec-base-box{
+		padding: 20px, 0, 20px, 0;
+	}
+}
+
+.order_history_width{
+	width : 50%;
+}
+
+.order_history_menu_ul{
+	border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
