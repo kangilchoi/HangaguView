@@ -11,13 +11,6 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form
     color: #888;
     -webkit-text-size-adjust: 100%;
 	}
-
-	#contents {
-	    position: relative;
-/* 	    width: 1240px; */
-	    margin: 0 auto;
-	    padding: 0 10px;
-	}
 }	
 
 @media all and (max-width:479px){
@@ -100,7 +93,10 @@ legend {
 
 #contents {
     width: 100%;
-    margin: 0;
+	position: relative;
+ 	max-width: 1240px; 
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .path {
