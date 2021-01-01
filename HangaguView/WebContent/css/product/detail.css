@@ -68,6 +68,12 @@ h1, h3 {
 .displaynone {
     display: none !important;
 }
+.mobile {
+	display: none !important;
+}
+.web {
+	display: block !important;
+}
 #skipNavigation {
     position: absolute;
     top: 0;
@@ -1388,4 +1394,394 @@ hr.layout {
 #modalContainer #modalContent {
     width: 100%;
     height: 100%;
+}
+@media (max-width: 1024px) {
+	body, code {
+	    min-width: 320px;
+	    font-family: 'Noto Sans','Nanum Gothic',Arial,sans-serif;
+	    font-size: 13px;
+	    line-height: 1.8;
+	    color: #666;
+	    background: #fff;
+	    -webkit-text-size-adjust: none;
+	}
+	body {
+		height: 100%;
+	}
+	.web {
+		display: none !important;
+	}
+	.mobile {
+		display: block !important;
+	}
+	#wrap {
+	    overflow: hidden;
+	    position: relative;
+	    min-height: 100%;
+	    width: 100%;
+	}
+	#container {
+		z-index: 100;
+	    position: relative;
+	    overflow: hidden;
+	    margin-top: -1px;
+	    margin-left: -1px;
+	    background-color: #fff;
+	    -webkit-transition: 300ms;
+	    -moz-transition: 300ms;
+	    -ms-transition: 300ms;
+	    -o-transition: 300ms;
+	    transition: 300ms;
+	    -webkit-backface-visibility: hidden;
+	    -ms-backface-visibility: hidden;
+	    backface-visibility: hidden;
+	}
+	#contents {
+	    position: relative;
+	    width: auto;
+	    margin: 50px 0 0;
+	    padding: 0;
+	}
+	#titleArea {
+	    position: relative;
+	    padding: 0;
+	    text-align: center;
+	}
+	#titleArea h2 {
+	    display: inline-block;
+	    overflow: hidden;
+	    font-size: 14px;
+	    color: #000;
+	    padding: 0;
+	    margin: 20px 0 20px;
+	    border-bottom: 1px solid #000;
+	}
+	#titleArea span {
+	    display: none;
+	    position: absolute;
+	    top: 13px;
+	    left: 14px;
+	}
+	.xans-product-menupackage {
+		display: none;
+	}
+	.xans-product-detail .imgArea .control {
+		display: none;
+	}
+	.xans-product-detail .imgArea {
+		float: none;
+		width: calc(100% - 28px);
+		padding: 0 14px;
+		margin: 0;
+	}
+	.xans-product-detail .imgArea .keyImg {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.xans-product-detail .imgArea .listImg {
+		display: none;
+	}
+	.xans-product-detail .infoArea {
+		float: none;
+	    width: calc(100% - 28px);
+	    border-top: 1px solid #ddd;
+	    background: #fff;
+	    margin: 0 14px;
+	    padding: 7px 0;
+	    color: #000;
+	}
+	.ec-base-tab-2 .menu {
+	    position: relative;
+    	height: 36px;
+		font-size: 13px;
+	    width: calc(100% - 30px);
+	    margin: 0 auto;
+	}
+	.ec-base-tab-2 .menu li {
+		width: 25%;
+	}
+	.ec-base-tab-2 .menu li:nth-child(2) {
+		display: none;
+	}
+	.ec-base-tab-2 .menu li a {
+		float: left;
+	    position: relative;
+	    background: #fff;
+	    height: 36px;
+	    width: 100%;
+	    padding: 0;
+	    color: #666;
+	    line-height: 36px;
+	    text-align: center;
+	    text-decoration: none;
+	    border-top: 1px solid #ddd;
+	    border-bottom: 1px solid #000;
+	}
+	.ec-base-tab-2 .menu li.selected a {
+	    height: 36px;
+	    margin-right: 0;
+	    color: #000;
+	    line-height: 36px;
+	    background: rgba(255,255,255,0);
+	    border-top: 1px solid #000;
+	    border-right: 1px solid #000;
+	    border-left: 1px solid #000;
+	    border-bottom: 0;
+	    z-index: 5;
+	    margin-left: -1px;
+	}
+	.xans-product-additional .cont {
+		width: calc(100% - 30px);
+	    margin: 0 auto;
+	    padding: 0;
+	}
+	.xans-product-additional .cont img {
+		max-width: 100%;
+	    height: auto !important;
+	    padding: 0;
+	    margin: 0;
+	}
+	#prdRelated, #prdReview, #prdQnA, #tab_02, .prd_info {
+		display: none;
+	}
+	.xans-product-relation {
+	    margin: 0;
+	}
+	.xans-product-relation h2 {
+	    margin: 0;
+	    padding: 14px 14px 0;
+	    height: 43px;
+	    font-size: 13px;
+	    line-height: 43px;
+	    color: #000;
+	}
+	.xans-product-relation li {
+	    vertical-align: top;
+	    margin: 0 0 14px;
+	}
+	.xans-product-relation img {
+	    max-width: 100%;
+	}
+	.xans-product-relation > ul > li > ul {
+	    display: table;
+	    table-layout: fixed;
+	    width: 100%;
+	    font-size: 0;
+	    line-height: 0;
+	    box-sizing: border-box;
+	    padding: 0 7px;
+	}
+	.xans-product-relation .grid2 li {
+	    width: 50%;
+	}
+	.xans-product-relation > ul > li > ul > li {
+	    position: relative;
+	    display: inline-block;
+	    padding: 0;
+	    text-align: left;
+	    vertical-align: top;
+	}
+	.xans-product-relation .thumbnail {
+	    padding: 0 7px;
+	    margin: 0 0 10px;
+	}
+	.xans-product-relation .thumbnail img {
+	    width: 100%;
+	    border: 1px solid #ECECEC;
+	}
+	.xans-product-relation .information {
+	    position: relative;
+	    min-height: 10px;
+	    margin: 7px 7px 0;
+	}
+	.xans-product-relation .name {
+	    margin: 0 0 10px;
+	    font-size: 13px;
+	    line-height: 1.25;
+	    word-wrap: break-word;
+	}
+	.xans-product-relation .name a {
+	    color: #757575;
+	}
+	.xans-product-relation .price {
+	    margin: 0 0 3px;
+	    color: #000;
+	    font-size: 13px;
+	    line-height: 1.25em;
+	}
+	.xans-product-relation .strike {
+	    text-decoration: line-through;
+	}
+	.xans-product-relation .strike {
+	    font-weight: normal;
+	    text-decoration: line-through;
+	}
+	.xans-product-relation .paginate {
+	    padding: 0 0 14px;
+	}
+	.paginate.typeSwipe {
+	    color: #757575;
+	}
+	.paginate.typeSwipe button.prev, .paginate.typeSwipe button.next {
+	    width: 31px;
+	    font-size: 15px;
+	    line-height: 1.2em;
+	    border: 0;
+	    cursor: pointer;
+	    background: url(http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_prev.png) no-repeat 50% 50%;
+	    background-size: 7px auto;
+	}
+	.paginate.typeSwipe .prev, .paginate.typeSwipe .next {
+	    display: none;
+	}
+	.paginate.typeSwipe span {
+	    color: #fff;
+	    font-size: 0;
+	    line-height: 0;
+	}
+	.paginate.typeSwipe button.circle {
+	    margin: 0 3px 0 4px;
+	    width: 12px;
+	    height: 12px;
+	    border: 0;
+	    border-radius: 10px;
+	    cursor: pointer;
+	    background: rgba(0,0,0,0.2);
+	}
+	.paginate.typeSwipe button.circle.selected {
+	    background: rgba(0,0,0,1);
+	}
+	.paginate.typeSwipe button.next {
+	    background: url(http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_next.png) no-repeat 50% 50%;
+	    background-size: 7px auto;
+	}
+	.xans-layout-footerpackage {
+	    font-size: 12px;
+	    line-height: 1.6;
+	    padding: 50px 0 0;
+	    background: #fff;
+	}
+	.footerMenu {
+	    padding: 10px 0;
+	    text-align: center;
+	    border-top: 1px solid #ddd;
+	    border-bottom: 1px solid #ddd;
+	}
+	.footerMenu li:first-child {
+	}
+	.footerMenu li {
+	    display: inline-block;
+	    padding: 3px 7px;
+	    font-size: 13px;
+	}
+	.f_link {
+	    position: relative;
+	    width: 100%;
+	    overflow: hidden;
+	    text-align: center;
+	    margin: 0;
+	    background: #f9f9f9;
+	}
+	.f_link ul {
+	    font-size: 0;
+	    border-top: 1px solid #ddd;
+	    border-bottom: 1px solid #ddd;
+	    margin-top: -1px;
+	}
+	.f_link li {
+	    display: inline-block;
+	    width: 24%;
+	    text-align: center;
+	}
+	.f_link li:first-child a {
+	    border-left: 0;
+	}
+	.f_link li a {
+	    display: block;
+	    border-left: 1px solid #ddd;
+	    font-size: 12px;
+	    padding: 9px 0;
+	    vertical-align: middle;
+	}
+	.f_link li a img {
+	    width: 22px;
+	}
+	.f_con {
+	    position: relative;
+	    width: 100%;
+	    overflow: hidden;
+	    text-align: center;
+	    margin: 0;
+	    border-bottom: 1px solid #ddd;
+	}
+	.f_con ul {
+	    font-size: 0;
+	}
+	.f_con li:first-child {
+	    border-left: 0;
+	}
+	.f_con li {
+	    position: relative;
+	    display: inline-block;
+	    width: 49%;
+	    height: 140px;
+	    text-align: center;
+	    border-left: 1px solid #ddd;
+	    font-size: 12px;
+	    padding: 20px 0;
+	    vertical-align: top;
+	}
+	.f_con p {
+	}
+	.f_tit {
+	    font-size: 12px;
+	    font-weight: bold;
+	    color: #000;
+	    margin-bottom: 5px;
+	}
+	.f_tel {
+	    font-size: 12px;
+	    font-weight: bold;
+	    color: #000;
+	}
+	.f_con_btn {
+	    position: absolute;
+	    bottom: 20px;
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.f_con_btn a {
+	    display: block;
+	    padding: 5px 10px;
+	    border: 1px solid #ddd;
+	    width: 70%;
+	    margin: 0 auto;
+	    background: #f9f9f9;
+	}
+	.f_con_btn a img {
+	    width: 22px;
+	}
+	.footerSNS {
+	    padding: 7px 0;
+	    text-align: center;
+	    border-bottom: 1px solid #ddd;
+	}
+	.footerSNS img {
+	    height: 24px;
+	    margin: 4px;
+	}
+	.footerInfo {
+	    padding: 20px 0 10px;
+	}
+	.footerInfo li {
+	    color: #888;
+	    text-align: center;
+	}
+	.footerInfo strong {
+	    color: #000;
+	    font-weight: normal;
+	    padding: 0 5px;
+	}
 }

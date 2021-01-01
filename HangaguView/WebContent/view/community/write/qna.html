@@ -2,38 +2,48 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>리뷰 작성하기</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+<title>Q&A 작성하기</title>
 <link href="/css/common.css" rel="stylesheet">
-<link href="/css/product/write/board.css" rel="stylesheet">
+<link href="/css/community/write/board.css" rel="stylesheet">
 </head>
 <body>
 	<div id="wrap">
-		<div id="container">
-        	<div id="contents">
+	    <div id="container">
+	        <div id="contents">
 				<div class="xans-element- xans-board xans-board-writepackage-4 xans-board-writepackage xans-board-4 ">
 					<div class="xans-element- xans-board xans-board-title-4 xans-board-title xans-board-4 ">
 						<div class="path">
-            				<span>현재 위치</span>
-            				<ol>
+				            <span>현재 위치</span>
+				            <ol>
 								<li><a href="/">홈</a></li>
 				                <li><a href="/board/index.html">게시판</a></li>
-				                <li title="현재 위치"><strong>REVIEW</strong></li>
+				                <li title="현재 위치"><strong>Q&amp;A</strong></li>
 				            </ol>
 						</div>
 						<div class="titleArea">
-				            <h2><font color="#000000">REVIEW</font></h2>
-				            <!--<p>상품 사용후기입니다.</p>-->
+				            <h2><font color="#000000">Q&amp;A</font></h2>
+				            <!--<p>상품 Q&A입니다.</p>-->
 				        </div>
 					</div>
-					<form id="boardWriteForm" name="" action="/exec/front/Board/write/4" method="post" target="_self" enctype="multipart/form-data">
-						<input id="board_no" name="board_no" value="4" type="hidden">
-						<input id="product_no" name="product_no" value="18" type="hidden">
-						<input id="move_write_after" name="move_write_after" value="https://www.furnimass.com/product/detail2.html?product_no=18&amp;cate_no=274&amp;display_group=1" type="hidden">
-						<input id="cate_no" name="cate_no" value="274" type="hidden">
+					<form id="boardWriteForm" name="" action="/exec/front/Board/write/6" method="post" target="_self" enctype="multipart/form-data">
+						<input id="board_no" name="board_no" value="6" type="hidden">
+						<input id="product_no" name="product_no" value="3499" type="hidden">
+						<input id="move_write_after" name="move_write_after" value="/product/detail.html?board_no=6&amp;product_no=3499&amp;cate_no=273&amp;display_group=1&amp;keyword=" type="hidden">
+						<input id="cate_no" name="cate_no" value="273" type="hidden">
 						<input id="bUsePassword" name="bUsePassword" value="" type="hidden">
 						<input id="order_id" name="order_id" value="" type="hidden">
 						<input id="is_post_checked" name="is_post_checked" value="" type="hidden">
-						<input id="605a08f7da25da85c5ec" name="605a08f7da25da85c5ec" value="e7171431de9682679e61c2e83e0022b7" type="hidden">
+						<input id="732e9f89a581a608c" name="732e9f89a581a608c" value="69a8486a573808c377974b10647721de" type="hidden">
+						<input id="fix_title_form_0" name="fix_title_form_0" value="상품 문의드립니다^^" type="hidden">
+						<input id="fix_title_form_1" name="fix_title_form_1" value="배송 문의드립니다^^" type="hidden">
+						<input id="fix_title_form_2" name="fix_title_form_2" value="견적 문의드립니다^^" type="hidden">
+						<input id="fix_title_form_3" name="fix_title_form_3" value="기타 문의드립니다^^" type="hidden">
+						<input id="bulletin_type" name="bulletin_type" value="title" type="hidden">
 						<div class="xans-element- xans-board xans-board-write-4 xans-board-write xans-board-4">
 							<!--
 					            $write_success_url = /board/product/list.html
@@ -43,58 +53,84 @@
 					            $deny_access_url = /index.html
 					        -->
 							<!-- 상품정보선택 -->
-							<div class="ec-base-box typeProduct  ">
+							<div class="ec-base-box typeProduct displaynone ">
 					            <p class="thumbnail">
-					            	<a href="/product/detail.html?product_no=18">
-					            		<img id="iPrdImg" src="https://www.furnimass.com/web/product/tiny/20200131/e69eb19d0625b26e8a98118d300ba0b6.jpg" onerror="this.src='https://img.echosting.cafe24.com/thumb/75x75.gif'" alt="">
+					            	<a href="/product/detail.html?product_no=3499">
+					            		<img id="iPrdImg" src="//furnimass.com/web/product/tiny/201906/c977be245ce2b5ca6b1448eb22e08506.jpg" onerror="this.src='https://img.echosting.cafe24.com/thumb/75x75.gif'" alt="">
 				            		</a>
 			            		</p>
 					            <div class="information">
 					                <span id="sPrdCommonImg">    </span>                
-					                <h3><a href="/product/detail.html?product_no=18" id="aPrdNameLink"><span id="sPrdName">샤프 체어 W-605 [ 45% 할인 ]</span></a></h3>
-					                <p class="price"><span id="sPrdPrice">176,000원</span></p>
+					                <h3><a href="/product/detail.html?product_no=3499" id="aPrdNameLink"><span id="sPrdName">우드스틱 테이블 스탠드 L-311</span></a></h3>
+					                <p class="price"><span id="sPrdPrice">280,000원</span></p>
 					                <p class="button">
-					                    <span id="iPrdView" class=""><a href="/product/detail.html?product_no=18" id="aPrdLink" target="_blank"><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_prd_detail.gif" alt="상품상세보기"></a></span>
-					                    <span class=""><a href="#none" onclick="window.open('/view/product/searchProduct.html','','width=600,height=400,left=600,scrollbars=no,toolbars=no')"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_prd_select.gif" alt="상품정보선택"></a></span>
+					                    <span id="iPrdView" class=""><a href="/product/detail.html?product_no=3499" id="aPrdLink" target="_blank"><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_prd_detail.gif" alt="상품상세보기"></a></span>
+					                    <span class="displaynone"><a href="#none" onclick="BOARD_WRITE.product_popup('/product/search_board_list.html')"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_prd_select.gif" alt="상품정보선택"></a></span>
 					                    <span class="displaynone"><a href="#none" onclick="BOARD_WRITE.product_popup('/order/search_board_list.html')"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_prd_order.gif" alt="주문상품선택"></a></span>
 					                </p>
 					            </div>
-       						</div>
+				        	</div>
 							<div class="boardWrite ">
-					            <table border="1" summary="">
+		            			<table border="1" summary="">
 									<caption>글쓰기 폼</caption>
-									<tbody>
+		            				<tbody>
 										<tr class="first">
 											<th scope="row">제목</th>
-					                    	<td><input id="subject" name="subject" fw-filter="isFill" fw-label="제목" fw-msg="" class="inputTypeText" placeholder="" maxlength="125" value="" type="text"></td>
-						                </tr>
-										<tr class="displaynone">
+						                    <td>
+						                    	<select id="subject" name="subject" fw-filter="isFill" fw-label="제목" fw-msg="">
+													<option value="상품 문의드립니다^^">상품 문의드립니다^^</option>
+													<option value="배송 문의드립니다^^">배송 문의드립니다^^</option>
+													<option value="견적 문의드립니다^^">견적 문의드립니다^^</option>
+													<option value="기타 문의드립니다^^">기타 문의드립니다^^</option>
+												</select>  
+											</td>
+		                				</tr>
+										<tr class="">
 											<th scope="row">작성자</th>
-										    <td></td>
-						                </tr>
-										<tr class="displaynone">
+						                    <td><input id="writer" name="writer" fw-filter="isFill" fw-label="작성자" fw-msg="" class="inputTypeText" placeholder="" maxlength="50" value="" type="text"></td>
+		                				</tr>
+										<tr class="">
 											<th scope="row">이메일</th>
-						                    <td></td>
-						                </tr>
+						                    <td>
+						                    	<input id="email1" name="email1" fw-filter="" fw-label="이메일" fw-alone="N" fw-msg="" class="mailId" value="" type="text">@<input id="email2" name="email2" fw-filter="" fw-label="이메일" fw-alone="N" fw-msg="" class="mailAddress" readonly="readonly" value="" type="text">
+						                    	<select id="email3" fw-filter="" fw-label="이메일" fw-alone="N" fw-msg="">
+													<option value="" selected="selected">- 이메일 선택 -</option>
+													<option value="naver.com">naver.com</option>
+													<option value="daum.net">daum.net</option>
+													<option value="nate.com">nate.com</option>
+													<option value="hotmail.com">hotmail.com</option>
+													<option value="yahoo.com">yahoo.com</option>
+													<option value="empas.com">empas.com</option>
+													<option value="korea.com">korea.com</option>
+													<option value="dreamwiz.com">dreamwiz.com</option>
+													<option value="gmail.com">gmail.com</option>
+													<option value="etc">직접입력</option>
+												</select>
+											</td>
+		                				</tr>
 										<tr class="displaynone">
 											<th scope="row">평점</th>
-						                    <td>
-						                    	<input id="point0" name="point" fw-filter="" fw-label="평점" fw-msg="" value="5" type="radio" checked="checked">
-						                    	<label for="point0"><span class="point5"><em>★★★★★</em></span></label>
-												<input id="point1" name="point" fw-filter="" fw-label="평점" fw-msg="" value="4" type="radio"><label for="point1"><span class="point4"><em>★★★★</em></span></label>
-												<input id="point2" name="point" fw-filter="" fw-label="평점" fw-msg="" value="3" type="radio"><label for="point2"><span class="point3"><em>★★★</em></span></label>
-												<input id="point3" name="point" fw-filter="" fw-label="평점" fw-msg="" value="2" type="radio"><label for="point3"><span class="point2"><em>★★</em></span></label>
-												<input id="point4" name="point" fw-filter="" fw-label="평점" fw-msg="" value="1" type="radio"><label for="point4"><span class="point1"><em>★</em></span></label>
-											</td>
-                						</tr>
+						                    <td></td>
+		                				</tr>
 										<tr>
 											<td colspan="2" class="write">
-									            <script type="text/javascript" src="//editor.cafe24.com/js/nneditor.js?c=ko"></script>		<style type="text/css">			@import "https://editor.cafe24.com/css/style.css?ver=r3.4.0.20200729.1";			@import "https://editor.cafe24.com/css/styleie8.css?ver=r3.4.0.20200729.1";		</style>		<script type="text/javascript" src="https://editor.cafe24.com/lang/ko.js?version=r3.4.0.20200729.1" charset="UTF-8"></script><script type="text/javascript" src="https://editor.cafe24.com/js/nneditorUtils.dev.js?version=r3.4.0.20200729.1" charset="UTF-8"></script><script type="text/javascript" src="https://editor.cafe24.com/js/nneditorRange.dev.js?version=r3.4.0.20200729.1" charset="UTF-8"></script><script type="text/javascript" src="https://editor.cafe24.com/js/nneditorCore.dev.js?version=r3.4.0.20200729.1" charset="UTF-8"></script>
+									            <script type="text/javascript" src="//editor.cafe24.com/js/nneditor.js?c=ko"></script>		
+									            <style type="text/css">			
+									            	@import "https://editor.cafe24.com/css/style.css?ver=r3.4.0.20200729.1";			
+									            	@import "https://editor.cafe24.com/css/styleie8.css?ver=r3.4.0.20200729.1";		
+								            	</style>		
+								            	<script type="text/javascript" src="https://editor.cafe24.com/lang/ko.js?version=r3.4.0.20200729.1" charset="UTF-8"></script>
+								            	<script type="text/javascript" src="https://editor.cafe24.com/js/nneditorUtils.dev.js?version=r3.4.0.20200729.1" charset="UTF-8"></script>
+								            	<script type="text/javascript" src="https://editor.cafe24.com/js/nneditorRange.dev.js?version=r3.4.0.20200729.1" charset="UTF-8"></script>
+								            	<script type="text/javascript" src="https://editor.cafe24.com/js/nneditorCore.dev.js?version=r3.4.0.20200729.1" charset="UTF-8"></script>
 									            <script type="text/javascript">
 									                NN.Config.instanceID = "content";
 									                NN.Config.value = "";
 									                NN.Config.toolbarType = "simple";
-
+									                
+									                
+									                
+									
 									                //Editor Height
 									                NN.Config.height=400;
 									
@@ -126,32 +162,32 @@
 									                }
 									
 									                $Editor.push(oNN_content, "content");
-            									</script>			
-            									<div id="content_CONTAINER" class="nneditor-container">			
-            										<table class="seLayout">				
-            											<tbody>
-            												<tr>					
-            													<td id="content_toolbar_container" class="nneditor-toolbar-container">
-            														<div id="content_TOOLBAR" class="SE_TOOLBAR">
-            															<ul class="se_toolbar_left2">
-            																<li><div class="divide"></div></li>
-            																<li class="mode">
-            																	<table class="nneditor-table">
-            																		<tbody>
-            																			<tr>
-            																				<td><div style="cursor: pointer" rel="viewSrc" class="img_button mode"></div></td>
-            																				<td><div style="cursor: pointer" rel="viewSrc">소스</div></td>
-       																					</tr>
-   																					</tbody>
-																				</table>
-																			</li>
-																			<li class="fonttype">
-																				<table class="nneditor-table">
-																					<tbody>
-																						<tr>
-																							<td><button type="button" class="nneditor-fonttype" title="폰트" rel="fonttypePanel" id="fonttypePanel">글꼴</button></td>
-																							<td><a href="#" rel="fonttypePanel" class="fieldButton"></a></td>
-																						</tr>
+									            </script>			
+									            <div id="content_CONTAINER" class="nneditor-container">			
+									            	<table class="seLayout">		
+							            				<tbody>
+							            					<tr>	
+				            									<td id="content_toolbar_container" class="nneditor-toolbar-container">
+				            										<div id="content_TOOLBAR" class="SE_TOOLBAR">
+				            											<ul class="se_toolbar_left2">
+				            												<li><div class="divide"></div></li>
+				            												<li class="mode">
+				            													<table class="nneditor-table">
+				            														<tbody>
+				            															<tr>
+				            																<td><div style="cursor: pointer" rel="viewSrc" class="img_button mode"></div></td>
+				            																<td><div style="cursor: pointer" rel="viewSrc">소스</div></td>
+			            																</tr>
+		            																</tbody>
+		           																</table>
+		       																</li>
+		       																<li class="fonttype">
+			       																<table class="nneditor-table">
+			       																	<tbody>
+			       																		<tr>
+			       																			<td><button type="button" class="nneditor-fonttype" title="폰트" rel="fonttypePanel" id="fonttypePanel">글꼴</button></td>
+			       																			<td><a href="#" rel="fonttypePanel" class="fieldButton"></a></td>
+			   																			</tr>
 																					</tbody>
 																				</table>
 																			</li>
@@ -243,22 +279,20 @@
 																</td>				
 															</tr>				
 															<tr>					
-																<td>
-																	<button type="button" id="content_seResize" class="seResize2" onfocus="this.blur()" tabindex="100000"><span>입력창 크기 조절</span></button>
-																</td>				
+																<td><button type="button" id="content_seResize" class="seResize2" onfocus="this.blur()" tabindex="100000"><span>입력창 크기 조절</span></button></td>				
 															</tr>			
 														</tbody>
 													</table>			
 												</div>
-            									<input type="hidden" id="content_hidden" fw-filter="isSimplexEditorFill" fw-label="내용" value="oNN_content">
-                            				</td>
-                						</tr>
+		            							<input type="hidden" id="content_hidden" fw-filter="isSimplexEditorFill" fw-label="내용" value="oNN_content">
+		                            		</td>
+		                				</tr>
 										<!--
 							                <tr class="ucc">
 							                    <th scope="row">UCC URL</th>
 							                    <td><input id="ucc" name="ucc" size="35" fw-filter="" fw-label="UCC URL" value="" type="text"  /></td>
 							                </tr>
-						                -->
+						               	-->
 									</tbody>
 									<tbody class="">
 										<tr>
@@ -275,62 +309,77 @@
 						                </tr>
 										<tr>
 											<th scope="row">첨부파일4</th>
-						                    <td><input name="attach_file[]" type="file"></td>
+					                    	<td><input name="attach_file[]" type="file"></td>
 						                </tr>
 										<tr>
 											<th scope="row">첨부파일5</th>
-						                    <td><input name="attach_file[]" type="file"></td>
-						                </tr>
+			                    			<td><input name="attach_file[]" type="file"></td>
+			                			</tr>
 									</tbody>
 									<tbody>
 										<tr>
 											<th scope="row">비밀번호</th>
 						                    <td><input id="password" name="password" fw-filter="isFill" fw-label="비밀번호" fw-msg="" value="" type="password"></td>
 						                </tr>
-										<tr class="displaynone">
+										<tr class="">
 											<th scope="row">비밀글설정</th>
 						                    <td>
-						                    	<input id="secure0" name="secure" fw-filter="isFill" fw-label="비밀글설정" fw-msg="" value="F" type="radio" checked="checked"><label for="secure0">공개글</label>
-												<input id="secure1" name="secure" fw-filter="isFill" fw-label="비밀글설정" fw-msg="" value="T" type="radio"><label for="secure1">비밀글</label>
+						                    	<input id="secure0" name="secure" fw-filter="isFill" fw-label="비밀글설정" fw-msg="" value="F" type="radio" checked="checked" disabled="">
+						                    	<label for="secure0">공개글</label>
+												<input id="secure1" name="secure" fw-filter="isFill" fw-label="비밀글설정" fw-msg="" value="T" type="radio" checked="checked">
+												<label for="secure1">비밀글</label>
 											</td>
-						                </tr>
-										<tr class="captcha displaynone">
+				                		</tr>
+										<tr class="captcha ">
 											<th scope="row">자동등록방지<br>보안문자</th>
 						                    <td>
-						                        <p><span class="ec-base-help txtInfo">영문, 숫자 조합을 공백없이 입력하세요(대소문자구분)</span></p>
+						                        <img src="https://furnimass.com/Exec/Front/Board/Captcha/?no=&type=Write" id="captcha_Write">  
+						                        <img src="//img.echosting.cafe24.com/skin/base/common/btn_captcha_refresh.png" onclick="BOARD.refresh_captcha('Write','');">                        <p><input id="captcha" name="captcha" fw-filter="isFill" fw-label="보안문자" fw-msg="" class="inputTypeText" placeholder="보안문자를 입력해 주세요." value="" type="text"> <span class="ec-base-help txtInfo">영문, 숫자 조합을 공백없이 입력하세요(대소문자구분)</span></p>
 						                    </td>
 						                </tr>
-										<tr class="agree displaynone">
+										<tr class="agree ">
 											<th scope="row">개인정보 수집 및 <br>이용 동의</th>
 						                    <td>
-										    	<br>
-					                        	개인정보 수집 및 이용에 동의하십니까?                     
-				                        	</td>
-						                </tr>
+						                        <textarea id="privacy_agreement" name="privacy_agreement" fw-filter="" fw-label="개인정보보호정책" fw-msg="">
+							                        ■ 개인정보의 수집·이용 목적
+													서비스 제공 및 계약의 이행, 구매 및 대금결제, 물품배송 또는 청구지 발송, 회원관리 등을 위한 목적
+													
+													■ 수집하려는 개인정보의 항목
+													이름, 주소, 연락처, 이메일 등
+													
+													■ 개인정보의 보유 및 이용 기간
+													회사는 개인정보 수집 및 이용목적이 달성된 후에는 예외없이 해당정보를 파기합니다. 
+												</textarea>
+												<br>
+				                        		개인정보 수집 및 이용에 동의하십니까? 
+				                        		<input id="privacy_agreement_radio0" name="privacy_agreement_radio" fw-filter="isFill" fw-label="개인정보보호정책" fw-msg="" value="T" type="radio">
+				                        		<label for="privacy_agreement_radio0">동의함</label>
+												<input id="privacy_agreement_radio1" name="privacy_agreement_radio" fw-filter="isFill" fw-label="개인정보보호정책" fw-msg="" value="F" type="radio" checked="checked">
+												<label for="privacy_agreement_radio1">동의안함</label>                    
+											</td>
+				                		</tr>
 									</tbody>
 								</table>
 							</div>
 							<div class="button_g ">
 					        	<div class="btnArea M b_left">
-					        	    <a href="/board/product/list.html?board_no=4&amp;product_category_depth1=&amp;product_category_depth2=&amp;product_category_depth3=&amp;product_category_depth4=&amp;cate_no=274" class="black_s">목록보기</a>
+					        	    <a href="/board/product/list.html?board_no=6&amp;cate_no=273" class="black_s">목록보기</a>
 					        	</div>
 					        	<div class="btnArea M b_left displaynone">
-					        	    <a href="#none" onclick="" class="gray_s">관리자답변보기</a>
-					        	</div>
+				        	    	<a href="#none" onclick="" class="gray_s">관리자답변보기</a>
+				        		</div>
 					        	<div class="btnArea M b_right">
-					        	    <a href="/board/product/list.html?board_no=4&amp;product_category_depth1=&amp;product_category_depth2=&amp;product_category_depth3=&amp;product_category_depth4=&amp;cate_no=274" class="gray_s">취소</a>
+					        	    <a href="/board/product/list.html?board_no=6&amp;cate_no=273" class="gray_s">취소</a>
 					        	</div>
 					        	<div class="btnArea M b_right">
 					        	    <a href="#none" onclick="BOARD_WRITE.form_submit('boardWriteForm');" class="black_s" onmousedown="_AceTM.ReView(document.getElementById('product_no').value,document.getElementById('subject').value,5);">등록하기</a>
 					        	</div>
-					        </div>
+				        	</div>
 						</div>
-						<input name="_subject" id="tmp_subject" value="" type="hidden">
-						<textarea name="_message" id="tmp_content" style="display:none"></textarea>
 					</form>
 				</div>
-	        </div>
-	    </div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
