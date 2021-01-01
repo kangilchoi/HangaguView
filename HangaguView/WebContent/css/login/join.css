@@ -147,10 +147,17 @@ h1, h3 {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.xans-member-join #birth_year, .xans-member-join #marry_year, .xans-member-join #partner_year {
+.xans-member-join #birth_year, .xans-member-join #birth_month, .xans-member-join #birth_day, .xans-member-join #marry_year, .xans-member-join #partner_year {
     width: 60px;
     margin: 0 4px 0 0;
 }
+
+@media screen and (max-width: 479px) {
+    .xans-member-join #birth_year, .xans-member-join #birth_month, .xans-member-join #birth_day {
+        width: 30px;
+    }
+}
+
 
 .xans-member-join #job, .xans-member-join #job_class, .xans-member-join #school, .xans-member-join #region, .xans-member-join #internet, .xans-member-join #child, .xans-member-join #car, .xans-member-join #earning {
     width: 200px;
@@ -230,4 +237,13 @@ h1, h3 {
     width: 100%;
     display: block;
     text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+    #member_id {
+        margin-right: 100%;
+    }
+    #passwd {
+        margin-right: 100%;
+    }
 }

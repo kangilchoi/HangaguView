@@ -418,6 +418,7 @@ span.ec-base-help, p.ec-base-help, ul.ec-base-help li {
     content: "";
     display: block;
     clear: both;
+<<<<<<< HEAD
 }
 @media (max-width: 1024px) {
 	body, code {
@@ -589,4 +590,6 @@ span.ec-base-help, p.ec-base-help, ul.ec-base-help li {
 	.button_g {
 		margin: 0 14px 14px;
 	}
+=======
+>>>>>>> branch 'master' of https://github.com/kangilchoi/HangaguView
 }

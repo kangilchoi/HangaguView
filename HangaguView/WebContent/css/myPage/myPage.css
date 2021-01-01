@@ -1,6 +1,6 @@
 #wrap{
     position: relative;
-    width: 100%;s
+    width: 100%;
     margin: 0px auto 0;
 }
 
@@ -9,13 +9,6 @@
     width: 100%;
     margin: 25px auto 100px;
     zoom: 1;
-}
-
-#contents {
-    position: relative;
-    width: 1240px;
-    margin: 0 auto;
-    padding: 0 10px;
 }
 
 .titleArea {
@@ -137,9 +130,10 @@ a {
     padding: 15px 0 10px;
 }
 
+
 .xans-myshop-orderstate .order {
-    float: left;
-    width: 80%;
+	    float: left;
+	    width: 80%;
 }
 
 .xans-myshop-orderstate .order li {
@@ -181,19 +175,42 @@ a {
     width: 20%;
 }
 
-.xans-myshop-orderstate .cs li {
-    margin: 0 0 5px 57px;
-    letter-spacing: 0.04em;
-    word-spacing: 4px;
+@media all and (min-width:480px){
+	.xans-myshop-orderstate .cs li {
+	    margin: 0 0 5px 57px;
+	    letter-spacing: 0.04em;
+	    word-spacing: 4px;
+	}
 }
 
-.xans-myshop-orderstate .cs .icoDot {
-    display: inline-block;
-    width: 2px;
-    height: 2px;
-    margin: 6px 0 0 0;
-    background: #4d4d4d;
-    vertical-align: top;
+@media all and (max-width:479px){
+	.xans-myshop-orderstate .cs li {
+		margin: 0 0 0px 10px;
+	    letter-spacing: 0.04em;
+	    word-spacing: 4px;
+	}
+}
+
+@media all and (min-width:480px){
+	.xans-myshop-orderstate .cs .icoDot {
+	    display: inline-block;
+	    width: 2px;
+	    height: 2px;
+	    margin: 6px 0 0 0;
+	    background: #4d4d4d;
+	    vertical-align: top;
+	}
+}
+
+@media all and (max-width:479px){
+	.xans-myshop-orderstate .cs .icoDot {
+	    display: inline-block;
+	    width: 2px;
+	    height: 2px;
+	    margin: 6px 0 0 0;
+	    background: #4d4d4d;
+	    vertical-align: text-top;
+	}
 }
 
 .xans-myshop-orderstate .cs strong {
@@ -219,15 +236,30 @@ a {
     margin-left: -1%;
 }
 
-#myshopMain li {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
-    width: 32%;
-    margin: 6px 4px;
-    vertical-align: top;
-    text-align: left;
-    font-size: 11px;
+@media all and (min-width:480px){
+	#myshopMain li {
+	    display: inline-block;
+	    *display: inline;
+	    *zoom: 1;
+	    width: 32%;
+	    margin: 6px 4px;
+	    vertical-align: top;
+	    text-align: left;
+	    font-size: 11px;
+	}
+}
+
+@media all and (max-width:479px){
+	#myshopMain li {
+	    display: inline-block;
+	    *display: inline;
+	    *zoom: 1;
+	    width: 45%;
+	    margin: 6px 4px;
+	    vertical-align: top;
+	    text-align: left;
+	    font-size: 11px;
+	}
 }
 
 #myshopMain li a {

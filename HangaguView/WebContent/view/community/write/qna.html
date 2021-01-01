@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<<<<<<< HEAD
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -93,6 +94,95 @@
 											<th scope="row">이메일</th>
 						                    <td>
 						                    	<input id="email1" name="email1" fw-filter="" fw-label="이메일" fw-alone="N" fw-msg="" class="mailId" value="" type="text">@<input id="email2" name="email2" fw-filter="" fw-label="이메일" fw-alone="N" fw-msg="" class="mailAddress" readonly="readonly" value="" type="text">
+=======
+<title>Q&A 작성하기</title>
+<link href="/css/common.css" rel="stylesheet">
+<link href="/css/community/write/board.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+	    <div id="container">
+	        <div id="contents">
+				<div class="xans-element- xans-board xans-board-writepackage-4 xans-board-writepackage xans-board-4 ">
+					<div class="xans-element- xans-board xans-board-title-4 xans-board-title xans-board-4 ">
+						<div class="path">
+				            <span>현재 위치</span>
+				            <ol>
+								<li><a href="/">홈</a></li>
+				                <li><a href="/board/index.html">게시판</a></li>
+				                <li title="현재 위치"><strong>Q&amp;A</strong></li>
+				            </ol>
+						</div>
+						<div class="titleArea">
+				            <h2><font color="#000000">Q&amp;A</font></h2>
+				            <!--<p>상품 Q&A입니다.</p>-->
+				        </div>
+					</div>
+					<form id="boardWriteForm" name="" action="/exec/front/Board/write/6" method="post" target="_self" enctype="multipart/form-data">
+						<input id="board_no" name="board_no" value="6" type="hidden">
+						<input id="product_no" name="product_no" value="3499" type="hidden">
+						<input id="move_write_after" name="move_write_after" value="/product/detail.html?board_no=6&amp;product_no=3499&amp;cate_no=273&amp;display_group=1&amp;keyword=" type="hidden">
+						<input id="cate_no" name="cate_no" value="273" type="hidden">
+						<input id="bUsePassword" name="bUsePassword" value="" type="hidden">
+						<input id="order_id" name="order_id" value="" type="hidden">
+						<input id="is_post_checked" name="is_post_checked" value="" type="hidden">
+						<input id="732e9f89a581a608c" name="732e9f89a581a608c" value="69a8486a573808c377974b10647721de" type="hidden">
+						<input id="fix_title_form_0" name="fix_title_form_0" value="상품 문의드립니다^^" type="hidden">
+						<input id="fix_title_form_1" name="fix_title_form_1" value="배송 문의드립니다^^" type="hidden">
+						<input id="fix_title_form_2" name="fix_title_form_2" value="견적 문의드립니다^^" type="hidden">
+						<input id="fix_title_form_3" name="fix_title_form_3" value="기타 문의드립니다^^" type="hidden">
+						<input id="bulletin_type" name="bulletin_type" value="title" type="hidden">
+						<div class="xans-element- xans-board xans-board-write-4 xans-board-write xans-board-4">
+							<!--
+					            $write_success_url = /board/product/list.html
+					            $product_select_url = /product/search_board_list.html
+					            $order_select_url = /order/search_board_list.html
+					            $login_page_url = /member/login.html
+					            $deny_access_url = /index.html
+					        -->
+							<!-- 상품정보선택 -->
+							<div class="ec-base-box typeProduct displaynone ">
+					            <p class="thumbnail">
+					            	<a href="/product/detail.html?product_no=3499">
+					            		<img id="iPrdImg" src="//furnimass.com/web/product/tiny/201906/c977be245ce2b5ca6b1448eb22e08506.jpg" onerror="this.src='https://img.echosting.cafe24.com/thumb/75x75.gif'" alt="">
+				            		</a>
+			            		</p>
+					            <div class="information">
+					                <span id="sPrdCommonImg">    </span>                
+					                <h3><a href="/product/detail.html?product_no=3499" id="aPrdNameLink"><span id="sPrdName">우드스틱 테이블 스탠드 L-311</span></a></h3>
+					                <p class="price"><span id="sPrdPrice">280,000원</span></p>
+					                <p class="button">
+					                    <span id="iPrdView" class=""><a href="/product/detail.html?product_no=3499" id="aPrdLink" target="_blank"><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_prd_detail.gif" alt="상품상세보기"></a></span>
+					                    <span class="displaynone"><a href="#none" onclick="BOARD_WRITE.product_popup('/product/search_board_list.html')"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_prd_select.gif" alt="상품정보선택"></a></span>
+					                    <span class="displaynone"><a href="#none" onclick="BOARD_WRITE.product_popup('/order/search_board_list.html')"><img src="https://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_prd_order.gif" alt="주문상품선택"></a></span>
+					                </p>
+					            </div>
+				        	</div>
+							<div class="boardWrite ">
+		            			<table border="1" summary="">
+									<caption>글쓰기 폼</caption>
+		            				<tbody>
+										<tr class="first">
+											<th scope="row">제목</th>
+						                    <td>
+						                    	<select id="subject" name="subject" fw-filter="isFill" fw-label="제목" fw-msg="">
+													<option value="상품 문의드립니다^^">상품 문의드립니다^^</option>
+													<option value="배송 문의드립니다^^">배송 문의드립니다^^</option>
+													<option value="견적 문의드립니다^^">견적 문의드립니다^^</option>
+													<option value="기타 문의드립니다^^">기타 문의드립니다^^</option>
+												</select>  
+											</td>
+		                				</tr>
+										<tr class="">
+											<th scope="row">작성자</th>
+						                    <td><input id="writer" name="writer" fw-filter="isFill" fw-label="작성자" fw-msg="" class="inputTypeText" placeholder="" maxlength="50" value="" type="text"></td>
+		                				</tr>
+										<tr class="">
+											<th scope="row">이메일</th>
+						                    <td>
+						                    	<input id="email1" name="email1" fw-filter="" fw-label="이메일" fw-alone="N" fw-msg="" class="mailId" value="" type="text">
+						                    	@<input id="email2" name="email2" fw-filter="" fw-label="이메일" fw-alone="N" fw-msg="" class="mailAddress" readonly="readonly" value="" type="text">
+>>>>>>> branch 'master' of https://github.com/kangilchoi/HangaguView
 						                    	<select id="email3" fw-filter="" fw-label="이메일" fw-alone="N" fw-msg="">
 													<option value="" selected="selected">- 이메일 선택 -</option>
 													<option value="naver.com">naver.com</option>
