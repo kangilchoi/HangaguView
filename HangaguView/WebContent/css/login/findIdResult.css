@@ -1,0 +1,111 @@
+.xans-member-findidresult {
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media screen and (max-width:1280px) {
+    .xans-member-findidresult .findId {
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .xans-member-findidresult .findId {
+        width: 360px;
+        margin: 0 auto;
+    }
+}
+
+
+.xans-member-findidresult .findId .desc {
+    margin: 20px 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+.ec-base-box.typeMember.gMessage {
+    border-width: 1px;
+    border-color: #ddd;
+}
+
+.xans-member-findidresult .findId .ec-base-box {
+    text-align: left;
+}
+
+.ec-base-box.typeMember {
+    padding: 0;
+}
+
+.ec-base-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.ec-base-box .message {
+    display: block;
+    padding: 10px 0 10px 35px;
+    border-bottom: 1px solid #e8e7e7;
+    background: #fbfbfb url(http://img.echosting.cafe24.com/skin/base/common/ico_info.gif) no-repeat 10px center;
+}
+
+.txtEm {
+    color: #008bcc;
+}
+
+.ec-base-box.typeMember .information {
+    display: table;
+    table-layout: fixed;
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ec-base-box.typeMember .information > .title, .ec-base-box.typeMember .information > .thumbnail {
+    display: table-cell;
+    padding: 0 15px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ec-base-box.typeMember .information > .thumbnail img {
+    max-width: 70px;
+}
+
+.ec-base-box.typeMember .information .description {
+    display: table-cell;
+    padding: 0 20px;
+    width: auto;
+    line-height: 1.5em;
+    border-left: 1px solid #e8e8e8;
+    vertical-align: middle;
+}
+
+.xans-member-findidresult .findId li {
+    padding: 3px 0;
+}
+
+.xans-member-findidresult .findId li label {
+    display: inline-block;
+    margin: 0 0 5px 10px;
+}
+
+.ec-base-button:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.btnArea .white {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #222;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
