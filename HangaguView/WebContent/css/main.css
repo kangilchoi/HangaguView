@@ -761,7 +761,7 @@ hr.layout {
 	    border: 0px solid #ccc;
 	}
 	#m_header .category img {
-	    width: 47px;
+	    width: 38px;
 	}
 	#m_header h1 {
 	    text-align: center;
@@ -1073,4 +1073,17 @@ hr.layout {
 	    font-size: 12px;
 	    color: #999;
 	}
+}
+
+.ic_mypage{
+	width: 35px;
+}
+.ic_cart{
+	width: 40px;
+}
+.ic_wish{
+	width: 35px;
+}
+.ic_qna{
+	width: 35px;
 }
